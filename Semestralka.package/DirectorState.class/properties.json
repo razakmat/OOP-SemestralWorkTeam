@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "StateClass",
+	"category" : "Semestralka",
+	"classinstvars" : [
+		"director"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonReturn",
+		"input",
+		"screen"
+	],
+	"name" : "DirectorState",
+	"type" : "normal"
+}
