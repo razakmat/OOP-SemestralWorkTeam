@@ -1,0 +1,24 @@
+STAVY
+  -> NEW intro state, tady autentikace a rozdeleni na Admin/Normal stav
+
+pro adminy - admin jen pridava, maze, upravuje
+  -> add user / remove user / edit
+  -> add genre
+
+pro normalniho uzivatele - normalni jen vyhledava a komentuje
+  -> comment state
+  -> search state - by genre/ by film
+
+pro oba - nejak rozdelit na 2 podtridy u spolecnych stavu, nejspis to bude WholeDatabaseState
+  -> single state
+  -> whole database state
+  -> director state
+
+abstrahovat tyhle stavy, az to bude fungovat nebo za pochodu
+
+KOLEKCE
+
+  -> zanry
+  -> usery
+
+StrategyPattern bude v "User preferences" : rozlozeni tlacitek
