@@ -1,10 +1,10 @@
 adding
-addDirector: aString
+addActor: aString
 	| parts |
 	parts := aString substrings.
 
-	Director new
-	id: (Director selectAll)size + 1;
+	Actor new
+	id: (Actor selectAll)size + 1;
 	firstName: (parts at: 1);
 	Surname: (parts at: 2);
 	born: (parts at: 3);

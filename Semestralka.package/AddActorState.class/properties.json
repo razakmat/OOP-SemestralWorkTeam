@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "Person",
+	"super" : "StateClass",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "Director",
+	"instvars" : [
+		"buttonReturn",
+		"input",
+		"screen"
+	],
+	"name" : "AddActorState",
 	"type" : "normal"
 }

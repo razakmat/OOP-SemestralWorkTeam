@@ -1,8 +1,8 @@
 as yet unclassified
 Examples1
 |Director1 Director2|
-Director1 := Director new firstName: 'Adam'; Surname: 'Novak'; born: 1990.
-Director2 := Director new firstName: 'Lukas'; Surname: 'Tomek'; born: 1800.
+Director1 := Director new id: 1; firstName: 'Adam'; Surname: 'Novak'; born: 1990.
+Director2 := Director new id: 2; firstName: 'Lukas'; Surname: 'Tomek'; born: 1800.
 Film new
 	id: 1;
 	director: Director1 ;
