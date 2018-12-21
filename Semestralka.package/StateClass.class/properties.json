@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "Semestralka",
+	"classinstvars" : [
+		"MySecWindow"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"myWindow"
+	],
+	"name" : "StateClass",
+	"type" : "normal"
+}
