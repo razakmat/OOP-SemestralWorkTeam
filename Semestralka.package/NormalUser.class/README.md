@@ -1,0 +1,1 @@
+Normal user returns 'normal' if sent message role.

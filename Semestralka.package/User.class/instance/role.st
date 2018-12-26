@@ -1,0 +1,3 @@
+accessing
+role
+	self subclassResponsibility
