@@ -1,1 +1,0 @@
-Tests proper state pattern work.

@@ -2,9 +2,8 @@ initialization
 initializeWidgets
 	myWindow := self class mySecWindow.
 	screen := ListModel new.
-	screen items:  (self singledata: self class id).
+	screen items: #('Zadejte actor ve formatu: <jmeno> <prijmeni> <rok narozeni>').
 	buttonReturn := self newButton label: 'Return'.
-	buttonDirector := self newButton label: 'Show director'.
 	input := TextInputFieldModel new
-		ghostText: 'Zadejte ID filmu';
+		ghostText: 'Zadejte info';
 		enabled: true.

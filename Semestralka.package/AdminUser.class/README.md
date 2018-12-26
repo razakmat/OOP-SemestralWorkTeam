@@ -1,1 +1,0 @@
-Admin user returns 'admin' if sent message role.

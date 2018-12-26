@@ -2,18 +2,14 @@
 	"commentStamp" : "",
 	"super" : "StateClass",
 	"category" : "Semestralka",
-	"classinstvars" : [
-		"id"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonReturn",
-		"buttonDirector",
 		"input",
-		"screen",
-		"id"
+		"screen"
 	],
-	"name" : "SingleState",
+	"name" : "AddDirectorState",
 	"type" : "normal"
 }

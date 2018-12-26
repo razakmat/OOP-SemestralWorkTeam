@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonAdd",
+		"buttonAddDirector",
+		"buttonAddActor",
+		"buttonAddFilm",
 		"buttonRemove",
 		"buttonSearch",
 		"input",

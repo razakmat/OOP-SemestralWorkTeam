@@ -3,17 +3,15 @@
 	"super" : "StateClass",
 	"category" : "Semestralka",
 	"classinstvars" : [
-		"id"
+		"director"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonReturn",
-		"buttonDirector",
 		"input",
-		"screen",
-		"id"
+		"screen"
 	],
-	"name" : "SingleState",
+	"name" : "DirectorState",
 	"type" : "normal"
 }
