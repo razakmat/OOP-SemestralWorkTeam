@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PavelErazim 12/26/2018 21:17",
+	"super" : "TestCase",
+	"category" : "Semestralka-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BasicOperationsTests",
+	"type" : "normal"
+}

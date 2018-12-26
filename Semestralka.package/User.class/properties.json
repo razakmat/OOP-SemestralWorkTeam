@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PavelErazim 12/26/2018 21:25",
+	"super" : "Object",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nick",
+		"password"
+	],
+	"name" : "User",
+	"type" : "normal"
+}

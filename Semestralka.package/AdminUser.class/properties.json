@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "User",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AdminUser",
+	"type" : "normal"
+}
