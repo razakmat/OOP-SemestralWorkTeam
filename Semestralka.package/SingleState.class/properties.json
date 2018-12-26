@@ -9,7 +9,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonReturn",
-		"buttonDirector",
 		"input",
 		"screen",
 		"id"

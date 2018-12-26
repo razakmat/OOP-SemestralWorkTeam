@@ -1,0 +1,1 @@
+Normal operations, tests if basic operations like creating new object and accessing it works correctly.

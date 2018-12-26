@@ -5,5 +5,5 @@ singledata: aNumber
 	data := OrderedCollection new.
 	data add: 'ID: ' , film id greaseString.
 	data add: 'Name: ' , film name.
-	data add: 'Director: ' , film director firstName, ' ',film director Surname.
+	data add: 'Director: ' , film director.
 	^ data
