@@ -1,4 +1,3 @@
 accessing
 inputText: aNumber
-	SingleState id: aNumber.
-	(MyWindow1 new: SingleState) openWithSpec
+	self buttonSearch actionBlock value: aNumber

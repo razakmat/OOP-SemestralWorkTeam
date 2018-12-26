@@ -1,16 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ComposableModel",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
-		"name",
-		"director",
-		"genre"
+		"byID",
+		"byGenre",
+		"actionBlock"
 	],
-	"name" : "Film",
+	"name" : "SearchButton",
 	"type" : "normal"
 }
