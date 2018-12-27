@@ -5,3 +5,5 @@ initializePresenter
 	buttonDirector action: [ 
 		DirectorState director: (Film selectOne: [ :each | each id = self class id ]) director.
 		(MyWindow1 new: DirectorState) openWithSpec . myWindow delete ].
+	buttonReview action: [ 
+		(MyWindow1 new: AddReview ) openWithSpec . myWindow delete ].

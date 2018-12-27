@@ -7,7 +7,7 @@ initializeWidgets
 	buttonAddDirector := self newButton label: 'Add Director'.
 	buttonAddActor := self newButton label: 'Add Actor'.
 	buttonRemove := self newButton label: 'Remove Film'.
-	buttonSearch := self newButton label: 'Search'.
+	buttonSearch := self instantiate: SearchButton.
 	input := TextInputFieldModel new
-		ghostText: 'Zadejte ID filmu';
+		ghostText: 'Zadejte ID/zanr filmu';
 		enabled: true.

@@ -12,7 +12,8 @@
 		"buttonDirector",
 		"input",
 		"screen",
-		"id"
+		"id",
+		"buttonReview"
 	],
 	"name" : "SingleState",
 	"type" : "normal"

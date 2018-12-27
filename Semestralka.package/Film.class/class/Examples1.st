@@ -7,19 +7,23 @@ Film new
 	id: 1;
 	director: Director1 ;
 	name: 'Nazev1';
+	genre: #thriller;
 	save.
 Film new
 	id: 2;
 	director: Director1 ;
 	name: 'Nazev2';
+	genre: #horror;
 	save.
 Film new
 	id: 3;
 	director: Director2 ;
 	name: 'Nazev3';
+	genre: #horror;
 	save.
 Film new
 	id: 4;
 	director: Director1 ;
 	name: 'Nazev4';
+	genre: #comedy;
 	save.
