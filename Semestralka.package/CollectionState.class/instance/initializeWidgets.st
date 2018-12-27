@@ -5,5 +5,5 @@ initializeWidgets
 	screen items:  (self genreCollection: self class genre).
 	buttonReturn := self newButton label: 'Return'.
 	input := TextInputFieldModel new
-		ghostText: 'Zadejte ID zanru';
+		ghostText: 'Zadejte zanr';
 		enabled: true.

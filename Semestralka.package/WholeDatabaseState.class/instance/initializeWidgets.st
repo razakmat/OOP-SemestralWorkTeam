@@ -9,5 +9,5 @@ initializeWidgets
 	buttonRemove := self newButton label: 'Remove Film'.
 	buttonSearch := self instantiate: SearchButton.
 	input := TextInputFieldModel new
-		ghostText: 'Zadejte ID filmu';
+		ghostText: 'Zadejte ID/zanr filmu';
 		enabled: true.

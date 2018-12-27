@@ -1,17 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "StateClass",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
-		"name",
-		"director",
-		"genre",
-		"reviews"
+		"buttonReturn",
+		"input",
+		"screen"
 	],
-	"name" : "Film",
+	"name" : "AddReview",
 	"type" : "normal"
 }
