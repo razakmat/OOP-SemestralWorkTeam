@@ -3,7 +3,8 @@
 	"super" : "ComposableModel",
 	"category" : "Semestralka",
 	"classinstvars" : [
-		"state"
+		"state",
+		"user"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],

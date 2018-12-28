@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "StateClass",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonSignUp",
+		"inputPassword",
+		"inputLogin",
+		"login",
+		"password"
+	],
+	"name" : "AuthentificationState",
+	"type" : "normal"
+}

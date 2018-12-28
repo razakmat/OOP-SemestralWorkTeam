@@ -1,6 +1,8 @@
 as yet unclassified
 Examples1
-|Director1 Director2|
+|Director1 Director2 User1|
+User1 := AdminUser withNick: 'test'  withPassword: '123'.
+User1 save.
 Director1 := Director new id: 1; firstName: 'Adam'; Surname: 'Novak'; born: 1990.
 Director2 := Director new id: 2; firstName: 'Lukas'; Surname: 'Tomek'; born: 1800.
 Film new
