@@ -1,5 +1,5 @@
 accessing
-singledata: aNumber
+singleData: aNumber
 	| data film |
 	film := Film selectOne: [ :each | each id = aNumber ].
 	data := OrderedCollection new.

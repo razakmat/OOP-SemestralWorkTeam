@@ -1,9 +1,21 @@
 initialization
 initializeWidgets
 	myWindow := self class mySecWindow.
+	
 	screen := ListModel new.
-	screen items: #('Zadejte director ve formatu: <jmeno> <prijmeni> <rok narozeni>').
+	screen items: self addDirectorData.
+	
 	buttonReturn := self newButton label: 'Return'.
-	input := TextInputFieldModel new
-		ghostText: 'Zadejte info';
+	buttonAdd := self newButton label: 'Add'.
+	inputName := TextInputFieldModel new
+		ghostText: 'First Name';
+		autoAccept: true;
+		enabled: true.
+	inputSurname := TextInputFieldModel new
+		ghostText: 'Surname';
+		autoAccept: true;
+		enabled: true.
+	inputYear := TextInputFieldModel new
+		ghostText: 'Birth Year';
+		autoAccept: true;
 		enabled: true.

@@ -4,6 +4,16 @@ initializeWidgets
 	screen := ListModel new.
 	screen items: self addFilmData.
 	buttonReturn := self newButton label: 'Return'.
-	input := TextInputFieldModel new
-		ghostText: 'Zadejte info';
-		enabled: true
+	buttonAdd := self newButton label: 'Add'.
+	inputName := TextInputFieldModel new
+		ghostText: 'Name';
+		autoAccept: true;
+		enabled: true.
+	inputGenre := TextInputFieldModel new
+		ghostText: 'Genre';
+		autoAccept: true;
+		enabled: true.
+	inputDirector := TextInputFieldModel new
+		ghostText: 'Director ID';
+		autoAccept: true;
+		enabled: true.
