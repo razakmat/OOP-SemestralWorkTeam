@@ -10,6 +10,6 @@
 		"input",
 		"screen"
 	],
-	"name" : "AddReview",
+	"name" : "AddReviewState",
 	"type" : "normal"
 }
