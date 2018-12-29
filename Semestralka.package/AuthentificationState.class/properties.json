@@ -6,10 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonReturn",
-		"input",
-		"screen"
+		"buttonSignUp",
+		"inputPassword",
+		"inputLogin",
+		"login",
+		"password"
 	],
-	"name" : "AddReview",
+	"name" : "AuthentificationState",
 	"type" : "normal"
 }

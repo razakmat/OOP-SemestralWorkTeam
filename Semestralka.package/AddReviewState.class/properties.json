@@ -1,19 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposableModel",
+	"super" : "StateClass",
 	"category" : "Semestralka",
-	"classinstvars" : [
-		"state",
-		"user"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"items",
-		"screen",
+		"buttonReturn",
 		"input",
-		"state"
+		"screen"
 	],
-	"name" : "MyWindow1",
+	"name" : "AddReviewState",
 	"type" : "normal"
 }
