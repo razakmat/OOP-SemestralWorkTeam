@@ -1,3 +1,6 @@
 accessing
 inputText: aNumber
-	self class id: aNumber
+	|aFilm|
+	aFilm := RealFilm selectOne: [ :each | each id = aNumber ].
+	aFilm ifNil: [ aFilm := AbstractFilm empty  ].
+	self class currentFilm: aFilm

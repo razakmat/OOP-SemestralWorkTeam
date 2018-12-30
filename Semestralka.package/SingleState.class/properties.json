@@ -3,7 +3,7 @@
 	"super" : "StateClass",
 	"category" : "Semestralka",
 	"classinstvars" : [
-		"id"
+		"currentFilm"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -12,7 +12,7 @@
 		"buttonDirector",
 		"input",
 		"screen",
-		"id",
+		"currentFilm",
 		"buttonReview"
 	],
 	"name" : "SingleState",

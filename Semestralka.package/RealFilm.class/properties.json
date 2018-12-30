@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractFilm",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"name",
+		"director",
+		"genre",
+		"reviews"
+	],
+	"name" : "RealFilm",
+	"type" : "normal"
+}

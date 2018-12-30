@@ -1,0 +1,3 @@
+accessing
+director
+	self subclassResponsibility 

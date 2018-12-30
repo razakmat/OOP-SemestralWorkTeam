@@ -4,7 +4,7 @@ initializePresenter
 		myWindow dynamicChange: SingleState  ].
 	buttonReturn action: [ myWindow dynamicChange: WholeDatabaseState  ].
 	buttonDirector action: [ 
-		DirectorState director: (Film selectOne: [ :each | each id = self class id ]) director.
+		DirectorState director: self class currentFilm director.
 		myWindow dynamicChange: DirectorState ].
 	buttonReview action: [ 
 		myWindow dynamicChange: AddReviewState ].
