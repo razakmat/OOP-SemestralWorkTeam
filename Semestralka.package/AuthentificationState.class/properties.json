@@ -2,11 +2,14 @@
 	"commentStamp" : "",
 	"super" : "StateClass",
 	"category" : "Semestralka",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"wrongCredentials"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonSignUp",
+		"credentialsField",
 		"inputPassword",
 		"inputLogin",
 		"login",

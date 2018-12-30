@@ -1,9 +1,10 @@
 initialization
 initializePresenter
-	input acceptBlock: [ :aNumber | self inputText: aNumber greaseInteger. myWindow delete ].
-	buttonReturn action: [ MyWindow1 new openWithSpec . myWindow delete ].
+	input acceptBlock: [ :aNumber | self inputText: aNumber greaseInteger. 
+		myWindow dynamicChange: SingleState  ].
+	buttonReturn action: [ myWindow dynamicChange: WholeDatabaseState  ].
 	buttonDirector action: [ 
 		DirectorState director: (Film selectOne: [ :each | each id = self class id ]) director.
-		(MyWindow1 new: DirectorState) openWithSpec . myWindow delete ].
+		myWindow dynamicChange: DirectorState ].
 	buttonReview action: [ 
-		(MyWindow1 new: AddReviewState ) openWithSpec . myWindow delete ].
+		myWindow dynamicChange: AddReviewState ].

@@ -1,6 +1,6 @@
 initialization
 initializePresenter
-	input acceptBlock: [ :aNumber | self inputText: aNumber. myWindow delete ].
-	buttonAddFilm action: [ (MyWindow1 new: AddFilmState) openWithSpec. myWindow delete ].
-	buttonAddDirector action: [ (MyWindow1 new: AddDirectorState) openWithSpec. myWindow delete ].
-	buttonAddActor action: [ (MyWindow1 new: AddActorState) openWithSpec. myWindow delete ]
+	input acceptBlock: [ :aNumber | self inputText: aNumber ].
+	buttonAddFilm action: [ myWindow dynamicChange: AddFilmState ].
+	buttonAddDirector action: [ myWindow dynamicChange: AddDirectorState  ].
+	buttonAddActor action: [ myWindow dynamicChange: AddActorState  ]

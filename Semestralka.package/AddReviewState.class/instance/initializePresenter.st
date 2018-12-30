@@ -3,6 +3,6 @@ initializePresenter
 	input acceptBlock: [: anInput |
 		 (Film selectOne: [ :each | each id = (SingleState id) ] ) addReview: 
 			MyWindow1 user nick asString, ' wrote: <', anInput asString, '>'; save.
-		(MyWindow1 new: AddReviewState ) openWithSpec .
-		myWindow delete ].
-	buttonReturn action: [ (MyWindow1 new: SingleState ) openWithSpec . myWindow delete ].
+		myWindow dynamicChange: AddReviewState.
+		 ].
+	buttonReturn action: [ myWindow dynamicChange: SingleState ].

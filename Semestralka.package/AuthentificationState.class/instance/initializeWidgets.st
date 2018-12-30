@@ -11,3 +11,8 @@ initializeWidgets
 		autoAccept: true;
 		encrypted: true;
 		enabled: true.
+	credentialsField := TextModel new
+		text: 'Enter your credentials';
+		disable.
+	self class wrongCredentials ifNotNil: [ 
+		self class wrongCredentials ifTrue: [ credentialsField text: 'Wrong credentials!!!'] ]

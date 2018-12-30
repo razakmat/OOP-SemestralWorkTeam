@@ -1,6 +1,6 @@
 initialization
 initializePresenter
-	byGenre activationAction: [ actionBlock := [ :aString | CollectionState genre: aString asSymbol.
-	(MyWindow1 new: CollectionState) openWithSpec]].
-	byID activationAction: [ actionBlock :=  [ :aNumber | SingleState id: aNumber greaseInteger .
-	(MyWindow1 new: SingleState) openWithSpec] ]
+	byGenre activationAction: [ actionBlock := [ :aString :aWindow| CollectionState genre: aString asSymbol.
+	aWindow dynamicChange: CollectionState]].
+	byID activationAction: [ actionBlock :=  [ :aNumber :aWindow | SingleState id: aNumber greaseInteger .
+	aWindow dynamicChange: SingleState] ]
