@@ -22,3 +22,5 @@ KOLEKCE
   -> usery
 
 StrategyPattern bude v "User preferences" : rozlozeni tlacitek
+
+NullObject Pattern: pri zadani nevalidniho ID filmu prejdeme na SingleState s zadnymi daty, pritom zustanou tlacitka (addReview, showDirector) -> naimplementujeme custom exceptiony, budeme je hodit pres NullObject a zachytime v SingleStatu. 
