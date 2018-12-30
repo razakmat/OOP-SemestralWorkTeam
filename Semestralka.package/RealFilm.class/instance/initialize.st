@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	newFilm := RealFilm new.
+	reviews := OrderedCollection new.

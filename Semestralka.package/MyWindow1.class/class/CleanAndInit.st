@@ -2,5 +2,5 @@ as yet unclassified
 CleanAndInit
 	User removeAll.
 	Director RemoveRecords.
-	Film RemoveRecords.
+	RealFilm RemoveRecords.
 	self FirstStart
