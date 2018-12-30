@@ -1,4 +1,10 @@
 initialization
 initializePresenter
-	input acceptBlock: [ :aString | self addDirector: aString .input text: '' ].
-	buttonReturn action: [ MyWindow1 new openWithSpec . myWindow delete ].
+	inputName acceptBlock: [ :aString | newDirector firstName: aString. ].
+	inputSurname acceptBlock: [ :aString | newDirector Surname:  aString ]. 
+	inputYear acceptBlock: [ :aYear | newDirector born: aYear greaseInteger ]. 
+	buttonReturn action: [ myWindow dynamicChange: WholeDatabaseState ].
+	buttonAdd action: [ 
+		self addDirector.
+		myWindow dynamicChange: AddDirectorState 
+		]

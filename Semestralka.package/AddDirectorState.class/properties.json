@@ -7,8 +7,12 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonReturn",
-		"input",
-		"screen"
+		"buttonAdd",
+		"screen",
+		"inputName",
+		"inputSurname",
+		"inputYear",
+		"newDirector"
 	],
 	"name" : "AddDirectorState",
 	"type" : "normal"

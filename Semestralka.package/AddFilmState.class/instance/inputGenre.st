@@ -1,0 +1,3 @@
+accessing
+inputGenre
+	^ inputGenre 

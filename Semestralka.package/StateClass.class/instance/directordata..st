@@ -1,5 +1,5 @@
 accessing
-directordata: aDirector
+directorData: aDirector
 	| data films |
 	"films := Film selectMany: [ :each | (each director firstName = aDirector firstName)  ]."
 	data := OrderedCollection new.
