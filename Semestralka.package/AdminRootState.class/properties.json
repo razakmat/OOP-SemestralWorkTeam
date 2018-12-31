@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "StateClass",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonAddDirector",
+		"buttonAddActor",
+		"buttonAddFilm",
+		"buttonRemove",
+		"buttonSearch",
+		"input",
+		"screen"
+	],
+	"name" : "AdminRootState",
+	"type" : "normal"
+}

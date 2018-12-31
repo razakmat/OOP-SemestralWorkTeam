@@ -6,14 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonAddDirector",
-		"buttonAddActor",
-		"buttonAddFilm",
-		"buttonRemove",
-		"buttonSearch",
-		"input",
-		"screen"
+		"buttonReturn",
+		"screen",
+		"buttonAdd",
+		"inputComment"
 	],
-	"name" : "WholeDatabaseState",
+	"name" : "AddCommentState",
 	"type" : "normal"
 }
