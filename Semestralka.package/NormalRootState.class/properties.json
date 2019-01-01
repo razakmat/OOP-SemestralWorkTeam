@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonAddComment",
 		"buttonSearch",
 		"input",
-		"screen"
+		"screen",
+		"buttonViewFilm"
 	],
 	"name" : "NormalRootState",
 	"type" : "normal"

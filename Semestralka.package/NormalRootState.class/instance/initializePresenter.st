@@ -1,4 +1,8 @@
 initialization
 initializePresenter
+	| id |
 	input acceptBlock: [ :aNumber | self inputText: aNumber ].
-	buttonAddComment action: [ myWindow dynamicChange: AddCommentState ]
+	buttonViewFilm
+		action: [ id := self selectedIdOnScreen asNumber.
+			SingleState currentFilm: (RealFilm selectOne: [ :aFilm | aFilm id = id ]).
+			myWindow dynamicChange: SingleState ]

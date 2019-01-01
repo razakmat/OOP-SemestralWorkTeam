@@ -3,7 +3,7 @@ initializeWidgets
 	myWindow := self class mySecWindow.
 	screen := ListModel new.
 	screen items:  self data.
-	buttonAddComment := self newButton label: 'Add a Comment'.
+	buttonViewFilm := self newButton label: 'View the selected film'.
 	buttonSearch := self instantiate: SearchButton.
 	input := TextInputFieldModel new
 		ghostText: 'Zadejte ID/zanr filmu';

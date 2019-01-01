@@ -2,13 +2,16 @@
 	"commentStamp" : "",
 	"super" : "StateClass",
 	"category" : "Semestralka",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"currentFilm"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonReturn",
 		"input",
-		"screen"
+		"screen",
+		"currentFilm"
 	],
 	"name" : "AddReviewState",
 	"type" : "normal"

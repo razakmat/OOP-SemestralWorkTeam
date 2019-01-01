@@ -1,3 +1,3 @@
 accessing
 currentFilm
-	^currentFilm
+	^ currentFilm
