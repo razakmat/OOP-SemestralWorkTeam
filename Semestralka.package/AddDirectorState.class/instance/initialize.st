@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	newPerson  := Director new.
+	newDirector := Director new.

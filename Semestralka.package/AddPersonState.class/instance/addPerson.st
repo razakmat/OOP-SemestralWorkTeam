@@ -1,3 +1,0 @@
-adding
-addPerson
-	self subclassResponsibility.

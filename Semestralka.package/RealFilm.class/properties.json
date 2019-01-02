@@ -10,8 +10,7 @@
 		"name",
 		"director",
 		"genre",
-		"reviews",
-		"actors"
+		"reviews"
 	],
 	"name" : "RealFilm",
 	"type" : "normal"
