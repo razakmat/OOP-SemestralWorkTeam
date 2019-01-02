@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "StateClass",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonReturn",
+		"buttonAdd",
+		"screen",
+		"inputName",
+		"inputSurname",
+		"inputYear",
+		"newPerson"
+	],
+	"name" : "AddPersonState",
+	"type" : "normal"
+}

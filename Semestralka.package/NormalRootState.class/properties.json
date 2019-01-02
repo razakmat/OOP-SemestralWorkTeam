@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "StateClass",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonSearch",
+		"input",
+		"screen",
+		"buttonViewFilm"
+	],
+	"name" : "NormalRootState",
+	"type" : "normal"
+}

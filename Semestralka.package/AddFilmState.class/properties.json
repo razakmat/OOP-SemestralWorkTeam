@@ -13,7 +13,8 @@
 		"inputName",
 		"inputYear",
 		"inputDirector",
-		"inputGenre"
+		"inputGenre",
+		"buttonAddActor"
 	],
 	"name" : "AddFilmState",
 	"type" : "normal"

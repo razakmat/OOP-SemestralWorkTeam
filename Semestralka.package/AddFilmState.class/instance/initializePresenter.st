@@ -1,7 +1,20 @@
 initialization
 initializePresenter
 	inputName acceptBlock: [ :aString | newFilm name: aString ].
-	inputDirector acceptBlock: [ :anID | newFilm director:  (Director selectOne: [ :each | each id = anID greaseInteger ])].
+	inputDirector
+		acceptBlock:
+			[ :anID | |currentID|
+			currentID := self idFromDirectorInput: anID.
+			newFilm director: (Director selectOne: [ :each | each id = currentID  
+			]) ].
 	inputGenre acceptBlock: [ :aGenre | newFilm genre: aGenre asSymbol ].
-	buttonReturn action: [ myWindow dynamicChange: WholeDatabaseState ].
-	buttonAdd action: [ self addFilm. myWindow dynamicChange: AddFilmState  ]
+	buttonReturn
+		action: [ myWindow dynamicChange: myWindow class user defaultAuthenticatedState ].
+	buttonAdd
+		action: [ self addFilm.
+			myWindow dynamicChange: self class ].
+	buttonAddActor
+		action: [ 
+			newFilm addActor: (Actor selectOne: [:each | each id = self selectedIdOnScreen asNumber]).
+			screen items: (self addActorData:(Actor selectAll difference: newFilm actors))
+			]

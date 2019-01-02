@@ -1,0 +1,3 @@
+accessing
+defaultAuthenticatedState
+	self subclassResponsibility

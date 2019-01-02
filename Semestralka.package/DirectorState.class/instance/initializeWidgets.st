@@ -3,7 +3,7 @@ initializeWidgets
 	myWindow := self class mySecWindow.
 	screen := ListModel new.
 	screen items:  (self directorData: self class director).
-	buttonReturn := self newButton label: 'Return'.
+	buttonReturn := self newButton label: 'Return to movie'.
 	input := TextInputFieldModel new
-		ghostText: 'Zadejte ID filmu';
+		ghostText: 'Type movie ID';
 		enabled: true.

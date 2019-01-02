@@ -12,7 +12,6 @@
 		"buttonDirector",
 		"input",
 		"screen",
-		"currentFilm",
 		"buttonReview"
 	],
 	"name" : "SingleState",

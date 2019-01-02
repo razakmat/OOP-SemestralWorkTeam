@@ -1,4 +1,4 @@
 instance creation
 new
-	state := WholeDatabaseState.
+	state := AdminRootState.
 	^ self basicNew initialize
