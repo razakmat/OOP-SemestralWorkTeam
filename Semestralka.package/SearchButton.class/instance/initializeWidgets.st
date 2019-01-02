@@ -4,7 +4,7 @@ initializeWidgets
 	searchButtonGroup := RadioButtonGroup new.
 	
 	byID := self newRadioButton.
-	byID label: 'Search by ID'.
+	byID label: 'View by ID'.
 	searchButtonGroup  addRadioButton: byID; default: byID.
 
 	byGenre := self newRadioButton.
