@@ -1,5 +1,5 @@
 as yet unclassified
-signUp
+logInAuth
 	| user |
 	user := User selectOne: [ :each | each nick = login & (each password = password) ].
 	user

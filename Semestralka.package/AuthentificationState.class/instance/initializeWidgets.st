@@ -1,7 +1,7 @@
 initialization
 initializeWidgets
 	myWindow := self class mySecWindow.
-	buttonSignUp := self newButton label: 'Sign Up'.
+	buttonSignUp := self newButton label: 'Log in'.
 	inputLogin := TextInputFieldModel new
 		ghostText: 'login (type: admin or test)';
 		autoAccept: true;
