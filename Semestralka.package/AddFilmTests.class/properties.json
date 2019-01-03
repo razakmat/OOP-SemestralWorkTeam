@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AdminStatesTests",
+	"category" : "Semestralka-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AddFilmTests",
+	"type" : "normal"
+}

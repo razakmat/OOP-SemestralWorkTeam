@@ -15,6 +15,8 @@ initializePresenter
 			myWindow dynamicChange: self class ].
 	buttonAddActor
 		action: [ 
+			screen selectedItem isNil ifFalse: [  
 			newFilm addActor: (Actor selectOne: [:each | each id = self selectedIdOnScreen asNumber]).
+				].
 			screen items: (self addActorData:(Actor selectAll difference: newFilm actors))
 			]
