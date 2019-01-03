@@ -2,7 +2,7 @@ initialization
 initializePresenter
 	| id |
 	input acceptBlock: [ :aNumber | self inputText: aNumber ].
-	buttonSignOut action: [ myWindow dynamicChange: AuthentificationState ].
+	buttonSignOut action: [ myWindow dynamicChange: AuthentificationState. myWindow user: User new. ].
 	buttonViewFilm
 		action: [ 
 			screen selectedItem isNil ifTrue: [ SingleState currentFilm: AbstractFilm empty ]

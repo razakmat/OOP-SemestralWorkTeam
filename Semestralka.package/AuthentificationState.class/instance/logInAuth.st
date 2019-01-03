@@ -6,5 +6,5 @@ logInAuth
 		ifNil: [ self class wrongCredentials: true.
 			myWindow dynamicChange: self class.
 			self class wrongCredentials: false ]
-		ifNotNil: [ myWindow class user: user.
+		ifNotNil: [ myWindow user: user.
 			myWindow dynamicChange: user defaultAuthenticatedState ]

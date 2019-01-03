@@ -9,7 +9,7 @@ initializePresenter
 			]) ].
 	inputGenre acceptBlock: [ :aGenre | newFilm genre: aGenre asSymbol ].
 	buttonReturn
-		action: [ myWindow dynamicChange: myWindow class user defaultAuthenticatedState ].
+		action: [ myWindow dynamicChange: myWindow user defaultAuthenticatedState ].
 	buttonAdd
 		action: [ self addFilm.
 			myWindow dynamicChange: self class ].

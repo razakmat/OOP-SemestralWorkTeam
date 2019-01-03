@@ -8,7 +8,7 @@ initializeWidgets
 	buttonAddFilm := self newButton label: 'Add Film'.
 	buttonRemove := self newButton label: 'Remove Film'.
 	buttonSearch := self instantiate: SearchButton.
-	buttonSignOut := self newButton label: 'Sign Out (', MyWindow1 user nick, ')'.
+	buttonSignOut := self newButton label: 'Sign Out (', myWindow user nick, ')'.
 	input := TextInputFieldModel new
 		ghostText: 'Type ID/genre of a movie ...';
 		enabled: true
