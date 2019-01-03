@@ -1,19 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "StateClass",
+	"super" : "AddPersonState",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"buttonReturn",
-		"buttonAdd",
-		"screen",
-		"inputName",
-		"inputSurname",
-		"inputYear",
-		"newDirector"
-	],
+	"instvars" : [ ],
 	"name" : "AddDirectorState",
 	"type" : "normal"
 }

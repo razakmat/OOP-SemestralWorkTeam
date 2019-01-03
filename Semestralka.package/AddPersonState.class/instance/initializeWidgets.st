@@ -3,7 +3,7 @@ initializeWidgets
 	myWindow := self class mySecWindow.
 	
 	screen := ListModel new.
-	screen items: self addDirectorData.
+	screen items: self addPersonalData.
 	
 	buttonReturn := self newButton label: 'Return to database'.
 	buttonAdd := self newButton label: 'Add'.
@@ -18,4 +18,4 @@ initializeWidgets
 	inputYear := TextInputFieldModel new
 		ghostText: 'Birth Year';
 		autoAccept: true;
-		enabled: true.
+		enabled: true

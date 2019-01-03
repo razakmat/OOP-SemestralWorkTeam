@@ -6,5 +6,5 @@ initializeWidgets
 	buttonViewFilm := self newButton label: 'View the selected film'.
 	buttonSearch := self instantiate: SearchButton.
 	input := TextInputFieldModel new
-		ghostText: 'Zadejte ID/zanr filmu';
+		ghostText: 'Type ID/genre of a movie ...';
 		enabled: true.

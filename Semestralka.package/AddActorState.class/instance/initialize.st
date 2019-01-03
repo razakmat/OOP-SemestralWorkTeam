@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	reviews := OrderedCollection new.
+	newPerson := Actor new

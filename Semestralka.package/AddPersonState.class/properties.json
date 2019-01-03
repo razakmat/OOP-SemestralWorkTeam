@@ -7,10 +7,13 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonReturn",
-		"screen",
 		"buttonAdd",
-		"inputComment"
+		"screen",
+		"inputName",
+		"inputSurname",
+		"inputYear",
+		"newPerson"
 	],
-	"name" : "AddCommentState",
+	"name" : "AddPersonState",
 	"type" : "normal"
 }
