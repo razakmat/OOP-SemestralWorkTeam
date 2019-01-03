@@ -1,4 +1,0 @@
-initialization
-setUpConnection
-	RealFilm setUpTestConnection.
-	RealFilm ExamplesForTesting

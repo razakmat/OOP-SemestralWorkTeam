@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AdminStatesTests",
+	"name" : "NormalUserStatesTests",
 	"type" : "normal"
 }
