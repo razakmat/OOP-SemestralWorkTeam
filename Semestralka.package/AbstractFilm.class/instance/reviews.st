@@ -1,0 +1,3 @@
+accessing
+reviews
+	self subclassResponsibility 
