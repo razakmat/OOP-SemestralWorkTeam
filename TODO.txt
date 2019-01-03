@@ -1,13 +1,11 @@
-STAVY
-(X)  -> NEW intro state, tady autentikace a r͟o͟z͟d͟e͟l͟e͟n͟i͟ ͟n͟a͟ ͟A͟d͟m͟i͟n͟/͟N͟o͟r͟m͟a͟l͟ ͟s͟t͟a͟v͟
+================ TODO =====================================================
 
 pro adminy - admin jen pridava, maze, upravuje
-  -> add user / remove user / edit - edituje pouze nick nebo password (mozna dobry feature by bylo umoznit zmenu nicku pouze jednou, zmenit nejakou promennou "alreadyChangedNickname" na true a potom pokud by se nekdo pokousel znovu zmenit nickname, tak by to vyhodilo exceptionu, ktera by adminovi vynadala a vratila ho zpatky - a mame dalsi bod splnenej)
+  -> add user / remove user / edit - edituje pouze nick nebo password (mozna dobry 
+     feature by bylo umoznit zmenu nicku pouze jednou, zmenit nejakou promennou "alreadyChangedNickname" 
+     na true a potom pokud by se nekdo pokousel znovu zmenit nickname, tak by to vyhodilo exceptionu, 
+     ktera by adminovi vynadala a vratila ho zpatky - a mame dalsi bod splnenej)
   -> add genre
-
-pro normalniho uzivatele - normalni jen vyhledava a komentuje
-(X)  -> comment state
-(X)  -> search state - by genre/ by film
 
 pro oba - nejak rozdelit na 2 podtridy u spolecnych stavu, nejspis to bude WholeDatabaseState
   -> single state
@@ -25,3 +23,36 @@ StrategyPattern bude v "User preferences" : rozlozeni tlacitek
 
 (X) NullObject Pattern: pri zadani nevalidniho ID filmu prejdeme na SingleState s zadnymi daty, pritom zustanou tlacitka (addReview, showDirector) ->
 (?) naimplementujeme custom exceptiony, budeme je hodit pres NullObject a zachytime v SingleStatu. 
+
+================ BUGS =====================================================
+
+AdminRootState - neimplementovany Remove Film
+
+abstrahovat RootState???
+
+viewSelectedFilm - hazi error, kdyz zadny film neni vybrany
+
+authentificationState a SignUp state >>initializePresenter - duplicity v kodu
+ --> abstrakce??
+
+
+SignUp state - vyresit password a login nil check - je to ve dvou klauzuli,
+je potreba to hodit do nejakyho jednoho ORu
+
+================ FEATURES =================================================
+
+Director state >> initializeWidgets
+  - zmenit Return to movie na Return to + 'nazev filmu'
+
+Zobrazovani zanru vedle filmu
+
+================ DONE =====================================================
+
+STAVY
+(X)  -> NEW intro state, tady autentikace a r͟o͟z͟d͟e͟l͟e͟n͟i͟ ͟n͟a͟ ͟A͟d͟m͟i͟n͟/͟N͟o͟r͟m͟a͟l͟ ͟s͟t͟a͟v͟
+
+
+pro normalniho uzivatele - normalni jen vyhledava a komentuje
+(X)  -> comment state
+(X)  -> search state - by genre/ by film
+
