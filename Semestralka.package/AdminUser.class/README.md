@@ -1,0 +1,1 @@
+I'm a class representing a registered administrator.

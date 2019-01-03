@@ -1,0 +1,1 @@
+I'm a class representing GUI window, I work with states which determine my contents and behaviour.

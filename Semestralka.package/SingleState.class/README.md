@@ -1,0 +1,1 @@
+I'm a state where you can see all the information about a selected film. I have GUI components to add a review (which will set a different state), see the information about the film's director and return to initial state.

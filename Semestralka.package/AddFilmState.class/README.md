@@ -1,0 +1,1 @@
+I'm a state class representing the functionality of adding new films to the database. I have GUI comonents to specify the information about a film, to start storing it and to return to the previous state in case the user wishes to leave without or after he stored a new film.

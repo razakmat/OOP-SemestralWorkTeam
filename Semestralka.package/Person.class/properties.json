@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "MiroslavKalal 1/3/2019 16:43",
 	"super" : "Object",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
@@ -8,7 +8,7 @@
 	"instvars" : [
 		"id",
 		"firstName",
-		"Surname",
+		"surname",
 		"born"
 	],
 	"name" : "Person",

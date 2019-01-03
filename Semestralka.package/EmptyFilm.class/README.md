@@ -1,0 +1,1 @@
+I'm a class repressenting an empty instance of a film.

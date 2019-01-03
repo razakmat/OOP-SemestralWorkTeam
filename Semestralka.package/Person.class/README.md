@@ -1,0 +1,1 @@
+I'm a class representing a person with full name and the date of its birth. I also have a unique identifier to distinguish between two persons with same names.

@@ -1,0 +1,1 @@
+I'm a class representing a registered user with no special role or rights (unlike an administrator.).
