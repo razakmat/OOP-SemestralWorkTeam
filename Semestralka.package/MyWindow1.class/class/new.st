@@ -1,4 +1,4 @@
 instance creation
 new
-	state := AdminRootState.
+	state := AuthentificationState.
 	^ self basicNew initialize
