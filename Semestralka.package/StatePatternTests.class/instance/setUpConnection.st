@@ -1,0 +1,4 @@
+tests
+setUpConnection
+	RealFilm setUpTestConnection.
+	RealFilm ExamplesForTesting
