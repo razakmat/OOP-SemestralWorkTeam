@@ -1,3 +1,3 @@
 accessing
 buttonSignUp
-	^buttonSignUp 
+	^ buttonSignUp

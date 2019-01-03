@@ -1,7 +1,7 @@
 accessing
 singleData: aNumber
 	| data film |
-	film := Film selectOne: [ :each | each id = aNumber ].
+	film := RealFilm selectOne: [ :each | each id = aNumber ].
 	data := OrderedCollection new.
 	film ifNil: [ ^ data add: 'No film has been found.'; yourself.].
 	data add: 'ID: ' , film id greaseString.

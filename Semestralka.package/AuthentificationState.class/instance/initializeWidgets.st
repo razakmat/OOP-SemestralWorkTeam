@@ -1,7 +1,7 @@
 initialization
 initializeWidgets
 	myWindow := self class mySecWindow.
-	buttonSignUp := self newButton label: 'Log in'.
+	buttonLogInAuth := self newButton label: 'Log in'.
 	inputLogin := TextInputFieldModel new
 		ghostText: 'login (type: admin or test)';
 		autoAccept: true;
@@ -14,5 +14,6 @@ initializeWidgets
 	credentialsField := TextModel new
 		text: 'Enter your credentials';
 		disable.
+	buttonSignUp := self newButton label: 'Sign Up'.
 	self class wrongCredentials ifNotNil: [ 
 		self class wrongCredentials ifTrue: [ credentialsField text: 'Wrong credentials!!!'] ]

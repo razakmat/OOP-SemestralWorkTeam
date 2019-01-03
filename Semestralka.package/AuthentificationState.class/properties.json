@@ -8,6 +8,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"buttonLogInAuth",
 		"buttonSignUp",
 		"credentialsField",
 		"inputPassword",

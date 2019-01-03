@@ -1,7 +1,7 @@
 accessing
 directorData: aDirector
 	| data films |
-	"films := Film selectMany: [ :each | (each director firstName = aDirector firstName)  ]."
+	"films := RealFilm selectMany: [ :each | (each director firstName = aDirector firstName)  ]."
 	data := OrderedCollection new.
 	data add: 'Born: ' , aDirector born greaseString.
 	data add: 'FirstName: ' , aDirector firstName.
