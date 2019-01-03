@@ -13,7 +13,8 @@
 		"buttonSearch",
 		"buttonSignOut",
 		"input",
-		"screen"
+		"screen",
+		"buttonUsers"
 	],
 	"name" : "AdminRootState",
 	"type" : "normal"
