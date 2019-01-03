@@ -5,6 +5,7 @@ initializeWidgets
 	screen items:  self data.
 	buttonViewFilm := self newButton label: 'View the selected film'.
 	buttonSearch := self instantiate: SearchButton.
+	buttonSignOut := self newButton label: 'Sign Out'.
 	input := TextInputFieldModel new
 		ghostText: 'Type ID/genre of a movie ...';
 		enabled: true.

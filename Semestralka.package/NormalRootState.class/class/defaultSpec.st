@@ -11,7 +11,8 @@ defaultSpec
 		newColumn: [ :column | 
 			column
 				add: #buttonAddComment;
-				add: #buttonSearch ]
+				add: #buttonSearch;
+				add: #buttonSignOut ]
 			origin: 0.7 @ 0
 			corner: 1 @ 1;
 		yourself

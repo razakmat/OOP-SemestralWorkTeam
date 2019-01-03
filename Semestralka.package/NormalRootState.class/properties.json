@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PavelErazim 1/3/2019 11:47",
 	"super" : "StateClass",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
@@ -9,7 +9,8 @@
 		"buttonSearch",
 		"input",
 		"screen",
-		"buttonViewFilm"
+		"buttonViewFilm",
+		"buttonSignOut"
 	],
 	"name" : "NormalRootState",
 	"type" : "normal"
