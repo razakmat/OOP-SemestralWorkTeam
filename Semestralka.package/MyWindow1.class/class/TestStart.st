@@ -1,4 +1,4 @@
 as yet unclassified
 TestStart
 	RealFilm setUpTestConnection.
-	(self new: AuthentificationState) openWithSpec
+	self new openWithSpec
