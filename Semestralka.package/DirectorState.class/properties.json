@@ -9,7 +9,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonReturn",
-		"input",
 		"screen"
 	],
 	"name" : "DirectorState",
