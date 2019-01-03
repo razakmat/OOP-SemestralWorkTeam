@@ -8,5 +8,5 @@ initializePresenter
 	buttonDirector
 		action: [ DirectorState director: self class currentFilm director.
 			myWindow dynamicChange: DirectorState ].
-	AddReviewState currentFilm: self class currentFilm.
-	buttonReview action: [ myWindow dynamicChange: AddReviewState ]
+	MyWindow1 user reviewState currentFilm: self class currentFilm.
+	buttonReview action: [ myWindow dynamicChange: MyWindow1 user reviewState ]

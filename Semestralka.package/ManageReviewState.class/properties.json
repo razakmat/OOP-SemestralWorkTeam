@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "StateClass",
+	"category" : "Semestralka",
+	"classinstvars" : [
+		"currentFilm"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonReturn",
+		"buttonDelete",
+		"screen"
+	],
+	"name" : "ManageReviewState",
+	"type" : "normal"
+}
