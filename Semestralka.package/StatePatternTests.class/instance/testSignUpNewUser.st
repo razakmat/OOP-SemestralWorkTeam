@@ -23,5 +23,3 @@ testSignUpNewUser
 		passwordPassed: 'mrkev'.
 	testdb state buttonLogInAuth performAction.
 	self assert: testdb state class = NormalRootState.
-
-	self cleanTest

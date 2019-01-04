@@ -12,4 +12,3 @@ testDeleteReviewFromEmptyFilm
 		 ].
 	self assert: error.
 	self assert: window state class = ManageReviewState.
-	self cleanTest

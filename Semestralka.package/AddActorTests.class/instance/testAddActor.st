@@ -13,5 +13,4 @@ testAddActor
 	self assert: window state class = AddActorState.
 	self assert: (window state newPerson = addedActor) not.
 	
-	self cleanTest
 	

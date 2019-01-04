@@ -13,5 +13,4 @@ testAddDirectorWithMissingValues
 	self assert: Director selectAll size = directorCnt.
 	self assert: window state class = AddDirectorState.
 	
-	self cleanTest
 	

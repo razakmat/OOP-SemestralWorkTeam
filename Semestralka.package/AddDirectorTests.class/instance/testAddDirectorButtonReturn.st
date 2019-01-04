@@ -9,5 +9,4 @@ testAddDirectorButtonReturn
 	self assert: Director selectAll size = directorCnt.
 	self assert: window state class = AdminRootState.
 	
-	self cleanTest
 	 

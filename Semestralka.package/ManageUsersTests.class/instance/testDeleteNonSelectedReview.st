@@ -9,5 +9,4 @@ testDeleteNonSelectedReview
 	self assert: window state class = ManageUsersState.
 	self assert: userCnt = User selectAll size.
 	
-	self cleanTest
 	

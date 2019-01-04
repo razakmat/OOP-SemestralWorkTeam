@@ -8,6 +8,5 @@ testAddFilmButtonReturn
 	currentState buttonReturn performAction.
 	self assert: RealFilm selectAll size = filmCnt.
 	self assert: window state class = AdminRootState.
-	
-	self cleanTest
+
 	

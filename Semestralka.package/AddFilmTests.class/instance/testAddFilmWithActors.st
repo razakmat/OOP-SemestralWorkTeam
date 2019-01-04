@@ -22,5 +22,3 @@ testAddFilmWithActors
 	self assert: window state class = AddFilmState.
 	
 	
-	self cleanTest
-	

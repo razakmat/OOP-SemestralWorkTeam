@@ -11,5 +11,4 @@ testManageReviewButtonReturn
 	self assert: window state class = SingleState.
 	self assert: reviewCnt = ManageReviewState currentFilm reviews size.
 	
-	self cleanTest
 	 

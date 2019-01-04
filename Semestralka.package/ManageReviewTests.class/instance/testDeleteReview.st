@@ -12,5 +12,4 @@ testDeleteReview
 	self assert: window state class = ManageReviewState.
 	self assert: (reviewCnt - 1) = ManageReviewState currentFilm reviews size.
 	
-	self cleanTest
 	

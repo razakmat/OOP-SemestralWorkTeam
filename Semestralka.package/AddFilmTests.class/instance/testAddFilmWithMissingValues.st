@@ -13,6 +13,5 @@ testAddFilmWithMissingValues
 	self assert: error.
 	self assert: RealFilm selectAll size = filmCnt.
 	self assert: window state class = AddFilmState.
-	
-	self cleanTest
+
 	
