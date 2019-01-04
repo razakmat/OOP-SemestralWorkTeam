@@ -1,11 +1,12 @@
 tests
 testSingOut
-	|currentState window|
+	| currentState window |
 	self setUpConnection.
 	window := MyWindow1 new: AuthentificationState.
 	currentState := window state.
-	currentState loginPassed: 'admin'; 
-					passwordPassed: 'admin'.
+	currentState
+		loginPassed: 'admin';
+		passwordPassed: 'admin'.
 	currentState buttonLogInAuth performAction.
 	self assert: window state class = AdminRootState.
 	self assert: window user nick = 'admin'.
@@ -14,7 +15,3 @@ testSingOut
 	self assert: window state class = AuthentificationState.
 	self assert: window user nick isNil.
 	self assert: window user password isNil
-	
-	
-	
-	

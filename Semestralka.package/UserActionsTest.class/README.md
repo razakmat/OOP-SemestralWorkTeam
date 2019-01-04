@@ -1,1 +1,0 @@
-Tests actions done by admin and normal user - adding new entries, users, comments etc.
