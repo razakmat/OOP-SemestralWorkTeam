@@ -1,7 +1,7 @@
 ================ TODO =====================================================
-
-Testy.
-
+spustitelna db neco jako ve snakes and ladders, na strane tridy mit apuatitelnou metodu, co otevre novou databazi, a dalsi, co se k ni vrati.
+Testy
+ 
 Duplicitni kod v testech (inicializace atd.) vyresit pres funkce.
 
 Prejmenovavani:
@@ -14,8 +14,7 @@ authentificationState a SignUp state >>initializePresenter - duplicity v kodu
 
 abstrahovat RootState???
 
-Testy, co delaji to samy, najit a vyhodit.
-
+Testy, co delaji to samy, najit a vyhodit
 ================ BUGS =====================================================
 
 AdminRootState - neimplementovany Remove Film - implementovat nebo odstranit
