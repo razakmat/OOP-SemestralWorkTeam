@@ -1,3 +1,7 @@
-as yet unclassified
+tests
 testEmptyFilmSingleton
-	self assert: false
+	| anotherEmptyMovie testdb |
+	testdb := MyWindow1 new.
+	[ anotherEmptyMovie := EmptyFilm new ]
+		on: Error
+		do: [ :e | self assert: e asString = 'Error: cannot create instance of singleton' ]
