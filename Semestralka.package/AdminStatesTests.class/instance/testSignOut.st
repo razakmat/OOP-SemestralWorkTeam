@@ -1,5 +1,5 @@
 tests
-testSingOut
+testSignOut
 	| currentState window |
 	self setUpConnection.
 	window := MyWindow1 new: AuthentificationState.

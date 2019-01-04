@@ -1,5 +1,5 @@
 tests
-testLoginUnexistingUser
+testLoginNonexistingUser
 	| testdb |
 	self setUpConnection.
 	testdb := MyWindow1 new.
