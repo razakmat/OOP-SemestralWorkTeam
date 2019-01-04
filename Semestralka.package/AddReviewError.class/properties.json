@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PavelErazim 1/4/2019 13:38",
+	"super" : "Error",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AddReviewError",
+	"type" : "normal"
+}
