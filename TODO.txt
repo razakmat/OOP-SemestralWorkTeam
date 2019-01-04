@@ -1,36 +1,29 @@
 ================ TODO =====================================================
 
-(Alex working on this) pro adminy - admin jen pridava, maze, upravuje
-  -> add user / remove user / edit - edituje pouze nick nebo password (mozna dobry 
-     feature by bylo umoznit zmenu nicku pouze jednou, zmenit nejakou promennou "alreadyChangedNickname" 
-     na true a potom pokud by se nekdo pokousel znovu zmenit nickname, tak by to vyhodilo exceptionu, 
-     ktera by adminovi vynadala a vratila ho zpatky - a mame dalsi bod splnenej)
-  -> add genre
+Testy.
 
-================ BUGS =====================================================
+Duplicitni kod v testech (inicializace atd.) vyresit pres funkce.
 
-AdminRootState - neimplementovany Remove Film
+Prejmenovavani:
+    MyWindow1 -> treba "MovieDatabase"
+    AuthentificationState -> AuthenticationState
+    addFilmData -> rename na getFilmData nebo tak nejak
+
+authentificationState a SignUp state >>initializePresenter - duplicity v kodu
+ => abstrakce??
 
 abstrahovat RootState???
 
-viewSelectedFilm - hazi error, kdyz zadny film neni vybrany
+Testy, co delaji to samy, najit a vyhodit.
 
-authentificationState a SignUp state >>initializePresenter - duplicity v kodu
- --> abstrakce??
+================ BUGS =====================================================
 
-addFilmData >> rename na getFilmData
-
-Authentification ==> authentication
-
-AdminStatesTest a StatePatternTest pouzivaji stejne metody
-
-testDefaultStateAfterLogin VS 
+AdminRootState - neimplementovany Remove Film - implementovat nebo odstranit
 
 Add director state tests - nekdy zluty
 
 manage review test - cerveny obcas - test manage review button return
 
-prepsat 'admin' a 'normal' role na symboly (???)
 
 ======== FEATURES (nepovinne, pokud zbyde cas) ============================
 
@@ -41,6 +34,8 @@ Zobrazovani zanru vedle filmu
 
 View DB as a guest - pouze prohlizeni filmu, nikoliv vyhledavani
   -> novy stav GuestRootState
+  
+prepsat 'admin' a 'normal' role na symboly (???)
 
 ================ DONE =====================================================
 
@@ -67,3 +62,14 @@ pro oba - nejak rozdelit na 2 podtridy u spolecnych stavu, nejspis to bude Whole
 (?) naimplementujeme custom exceptiony, budeme je hodit pres NullObject a zachytime v SingleStatu.
 
 # (CANCELED)StrategyPattern bude v "User preferences" : rozlozeni tlacitek
+
+(Alex working on this) pro adminy - admin jen pridava, maze, upravuje
+  -> add user / remove user / edit - edituje pouze nick nebo password (mozna dobry 
+     feature by bylo umoznit zmenu nicku pouze jednou, zmenit nejakou promennou "alreadyChangedNickname" 
+     na true a potom pokud by se nekdo pokousel znovu zmenit nickname, tak by to vyhodilo exceptionu, 
+     ktera by adminovi vynadala a vratila ho zpatky - a mame dalsi bod splnenej)
+  # (CANCELED) -> add genre
+  
+(X)  viewSelectedFilm - hazi error, kdyz zadny film neni vybrany
+
+(X) AdminStatesTest a StatePatternTest pouzivaji stejne metody => abstrahovat
