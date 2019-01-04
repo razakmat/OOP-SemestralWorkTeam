@@ -7,18 +7,6 @@ pro adminy - admin jen pridava, maze, upravuje
      ktera by adminovi vynadala a vratila ho zpatky - a mame dalsi bod splnenej)
   -> add genre
 
-pro oba - nejak rozdelit na 2 podtridy u spolecnych stavu, nejspis to bude WholeDatabaseState
-  -> single state
-  -> whole database state
-  -> director state
-
-abstrahovat tyhle stavy, az to bude fungovat nebo za pochodu
-
-KOLEKCE
-
-  -> zanry
-  -> usery
-
 StrategyPattern bude v "User preferences" : rozlozeni tlacitek
 
 (X) NullObject Pattern: pri zadani nevalidniho ID filmu prejdeme na SingleState s zadnymi daty, pritom zustanou tlacitka (addReview, showDirector) ->
@@ -35,16 +23,28 @@ viewSelectedFilm - hazi error, kdyz zadny film neni vybrany
 authentificationState a SignUp state >>initializePresenter - duplicity v kodu
  --> abstrakce??
 
+addFilmData >> rename na getFilmData
 
-SignUp state - vyresit password a login nil check - je to ve dvou klauzuli,
-je potreba to hodit do nejakyho jednoho ORu
+Authentification ==> authentication
 
-================ FEATURES =================================================
+AdminStatesTest a StatePatternTest pouzivaji stejne metody
+
+testDefaultStateAfterLogin VS 
+
+Add director state tests - nekdy zluty
+
+manage review test - cerveny obcas - test manage review button return
+
+
+======== FEATURES (nepovinne, pokud zbyde cas) ============================
 
 Director state >> initializeWidgets
   - zmenit Return to movie na Return to + 'nazev filmu'
 
 Zobrazovani zanru vedle filmu
+
+View DB as a guest - pouze prohlizeni filmu, nikoliv vyhledavani
+  -> novy stav GuestRootState
 
 ================ DONE =====================================================
 
@@ -55,4 +55,15 @@ STAVY
 pro normalniho uzivatele - normalni jen vyhledava a komentuje
 (X)  -> comment state
 (X)  -> search state - by genre/ by film
+(X) SignUp state - vyresit password a login nil check - je to ve dvou klauzuli,
+    je potreba to hodit do nejakyho jednoho ORu
+
+(X) KOLEKCE
+(X)  -> zanry
+(X)  -> usery
+
+pro oba - nejak rozdelit na 2 podtridy u spolecnych stavu, nejspis to bude WholeDatabaseState
+  -> single state
+  -> whole database state
+  -> director state
 
