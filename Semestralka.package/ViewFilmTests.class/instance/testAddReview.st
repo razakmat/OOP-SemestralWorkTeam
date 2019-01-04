@@ -11,3 +11,6 @@ testAddReview
 	window state screen setSelectedIndex: 1.
 	window state buttonViewFilm performAction.
 	window state buttonReview performAction.
+	
+	"Opravit! Nic to netestuje a ani nepridava komentar!"
+	self assert: false 

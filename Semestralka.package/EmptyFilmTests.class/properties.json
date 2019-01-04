@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "FilmTests",
+	"name" : "EmptyFilmTests",
 	"type" : "normal"
 }
