@@ -12,5 +12,4 @@ testButtonReviews
 	window state buttonViewFilm performAction.
 	window state buttonReview performAction.
 	self assert: window state class equals: AddReviewState.
-	self assert: window state class currentFilm equals: (RealFilm selectOne: [ :aFilm | aFilm id = 1 ]).
-	self cleanTest
+	self assert: window state class currentFilm equals: (RealFilm selectOne: [ :aFilm | aFilm id = 1 ])

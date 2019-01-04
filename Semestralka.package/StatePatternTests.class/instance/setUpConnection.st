@@ -1,5 +1,5 @@
 tests
 setUpConnection
 	RealFilm setUpTestConnection.
-	self cleanTest.
+	FilmDatabaseWindow CleanAllRecords.
 	RealFilm ExamplesForTesting

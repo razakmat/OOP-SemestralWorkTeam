@@ -13,4 +13,3 @@ testViewNotSelectedFilm
 	currentState buttonViewFilm performAction.
 	self assert: window state class equals: SingleState.
 	self assert: window state class currentFilm equals: AbstractFilm empty.
-	self cleanTest

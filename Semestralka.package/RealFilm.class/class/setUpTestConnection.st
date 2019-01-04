@@ -1,12 +1,4 @@
 example data
 setUpTestConnection
-	| repository |
-	repository := VOMongoRepository host: 'localhost' database: 'Films-Tests'.
-	repository enableSingleton.
+	(self needToSwitch: 'Films-Tests') ifTrue: [ self setUpConnection: 'Films-Tests'].
 	
-	User removeAll.
-	Director RemoveRecords.
-	Actor removeAll.
-	RealFilm RemoveRecords.
-	
-	RealFilm ExamplesForTesting.

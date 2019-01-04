@@ -1,3 +1,0 @@
-testing
-RemoveRecords
-	Director removeAll

@@ -14,5 +14,3 @@ testViewFilm
 	currentState buttonViewFilm performAction.
 	self assert: window state class equals: SingleState.
 	self assert: window state class currentFilm equals: (RealFilm selectOne: [ :aFilm | aFilm id = 1 ]).
-
-	self cleanTest

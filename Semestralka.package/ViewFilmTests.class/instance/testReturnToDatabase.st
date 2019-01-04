@@ -13,5 +13,4 @@ testReturnToDatabase
 	currentState := window state.
 	self assert: currentState class equals: SingleState.
 	currentState buttonReturn performAction.
-	self assert: window state class equals: NormalRootState.
-	self cleanTest
+	self assert: window state class equals: NormalRootState

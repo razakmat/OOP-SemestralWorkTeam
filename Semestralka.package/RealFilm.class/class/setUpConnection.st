@@ -1,7 +1,3 @@
 initialization
 setUpConnection
-	| repository |
-	repository := VOMongoRepository
-		host: 'localhost'
-		database: 'Films'.
-	repository enableSingleton.
+	(self needToSwitch: 'Films') ifTrue: [ self setUpConnection: 'Films']
