@@ -4,3 +4,4 @@ setUpConnection
 	repository := VOMongoRepository
 		host: 'localhost'
 		database: 'Films'.
+	repository enableSingleton.

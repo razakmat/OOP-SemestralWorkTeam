@@ -10,5 +10,4 @@ testDefaultStateAfterLogin
 	currentState buttonLogInAuth performAction.
 	self assert: window state class = AdminRootState.
 	self assert: window user nick = 'admin'.
-	self assert: window user password = 'admin'.
-	self cleanTest.
+	self assert: window user password = 'admin'
