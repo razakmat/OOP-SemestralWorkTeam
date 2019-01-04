@@ -1,3 +1,3 @@
 accessing
-buttonAddComment
+buttonViewFilm
 	^ buttonViewFilm
