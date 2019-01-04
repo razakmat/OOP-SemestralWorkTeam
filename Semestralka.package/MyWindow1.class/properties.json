@@ -9,8 +9,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"items",
-		"screen",
-		"input",
 		"state",
 		"user"
 	],
