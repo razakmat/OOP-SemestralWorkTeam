@@ -1,0 +1,1 @@
+I'm a state class representing film collection of the same genre.  

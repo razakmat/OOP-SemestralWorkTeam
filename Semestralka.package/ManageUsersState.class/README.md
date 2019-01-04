@@ -1,0 +1,1 @@
+I'm a state class for deleting existing users. I'm available only for AdminUser instances. An admin user can delete selected user using my butttonDelete. The admin cannot delete himself from database (he can't even see his nickname in the list).
