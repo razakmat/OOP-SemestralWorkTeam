@@ -10,7 +10,7 @@ defaultSpec
 			corner: 0.7 @ 1;
 		newColumn: [ :column | 
 			column
-				add: #buttonAddComment;
+				add: #buttonViewFilm;
 				add: #buttonSearch;
 				add: #buttonSignOut ]
 			origin: 0.7 @ 0
