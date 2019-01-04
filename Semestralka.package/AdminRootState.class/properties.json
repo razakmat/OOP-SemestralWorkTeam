@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "PavelErazim 1/3/2019 11:33",
-	"super" : "StateClass",
+	"super" : "RootState",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -10,10 +10,6 @@
 		"buttonAddActor",
 		"buttonAddFilm",
 		"buttonRemove",
-		"buttonSearch",
-		"buttonSignOut",
-		"input",
-		"screen",
 		"buttonUsers"
 	],
 	"name" : "AdminRootState",

@@ -1,13 +1,16 @@
 {
-	"commentStamp" : "PavelErazim 1/3/2019 11:47",
-	"super" : "RootState",
+	"commentStamp" : "",
+	"super" : "StateClass",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonViewFilm"
+		"buttonSearch",
+		"buttonSignOut",
+		"input",
+		"screen"
 	],
-	"name" : "NormalRootState",
+	"name" : "RootState",
 	"type" : "normal"
 }
