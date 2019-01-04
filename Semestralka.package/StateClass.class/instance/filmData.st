@@ -1,5 +1,5 @@
 accessing
-addFilmData
+filmData
 	| data |
 	data := OrderedCollection new.
 	data add: 'list of actors:'.

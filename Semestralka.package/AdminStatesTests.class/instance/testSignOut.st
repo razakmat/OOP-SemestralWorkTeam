@@ -2,7 +2,7 @@ tests
 testSignOut
 	| currentState window |
 	self setUpConnection.
-	window := MyWindow1 new: AuthentificationState.
+	window := FilmDatabaseWindow new: AuthenticationState.
 	currentState := window state.
 	currentState
 		loginPassed: 'admin';
@@ -12,6 +12,6 @@ testSignOut
 	self assert: window user nick = 'admin'.
 	self assert: window user password = 'admin'.
 	window state buttonSignOut performAction.
-	self assert: window state class = AuthentificationState.
+	self assert: window state class = AuthenticationState.
 	self assert: window user nick isNil.
 	self assert: window user password isNil

@@ -1,5 +1,5 @@
 adding
 addPersonalData
 	|data|
-	data := self addFilmData.
+	data := self filmData.
 	^data

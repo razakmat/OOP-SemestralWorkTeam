@@ -16,6 +16,6 @@
 		"login",
 		"password"
 	],
-	"name" : "AuthentificationState",
+	"name" : "AuthenticationState",
 	"type" : "normal"
 }

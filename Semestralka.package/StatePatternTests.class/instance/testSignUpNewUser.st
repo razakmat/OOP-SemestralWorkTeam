@@ -2,13 +2,13 @@ tests
 testSignUpNewUser
 	| testdb |
 	self setUpConnection.
-	testdb := MyWindow1 new.
+	testdb := FilmDatabaseWindow new.
 	testdb state
 		loginPassed: 'vokurka';
 		passwordPassed: 'mrkev'.
 	testdb state buttonLogInAuth performAction.
 
-	self assert: testdb state class = AuthentificationState.
+	self assert: testdb state class = AuthenticationState.
 	testdb state buttonSignUp performAction.
 	self assert: testdb state class = SignUpState.
 

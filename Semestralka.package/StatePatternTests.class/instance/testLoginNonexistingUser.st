@@ -2,9 +2,9 @@ tests
 testLoginNonexistingUser
 	| testdb |
 	self setUpConnection.
-	testdb := MyWindow1 new.
+	testdb := FilmDatabaseWindow new.
 	testdb state loginPassed: 'neexistujiciUzivatel'.
 	testdb state passwordPassed: 'nemaZadneHeslo123!'.
 	testdb state logInAuth.
 
-	self assert: testdb state class = AuthentificationState.
+	self assert: testdb state class = AuthenticationState.

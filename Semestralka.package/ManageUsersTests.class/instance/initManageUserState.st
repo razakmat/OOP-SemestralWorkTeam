@@ -1,7 +1,7 @@
 tests
 initManageUserState
 	|window|
-	window := MyWindow1 new.
+	window := FilmDatabaseWindow new.
 	window state loginPassed: 'admin'; 
 					passwordPassed: 'admin'.
 	window state buttonLogInAuth performAction.

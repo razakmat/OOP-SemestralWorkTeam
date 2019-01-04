@@ -2,7 +2,7 @@ tests
 testViewNotSelectedFilm
 	| currentState window |
 	self setUpConnection.
-	window := MyWindow1 new: AuthentificationState.
+	window := FilmDatabaseWindow new: AuthenticationState.
 	currentState := window state.
 	currentState
 		loginPassed: 'normal';

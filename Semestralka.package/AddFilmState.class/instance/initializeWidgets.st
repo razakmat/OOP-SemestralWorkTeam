@@ -2,7 +2,7 @@ initialization
 initializeWidgets
 	myWindow := self class mySecWindow.
 	screen := ListModel new.
-	screen items: self addFilmData.
+	screen items: self filmData.
 	buttonReturn := self newButton label: 'Return to database'.
 	buttonAdd := self newButton label: 'Add film'.
 	buttonAddActor  := self newButton label: 'Add selected actor'.
