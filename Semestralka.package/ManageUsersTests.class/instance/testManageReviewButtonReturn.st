@@ -9,5 +9,3 @@ testManageReviewButtonReturn
 	self assert: window state class = AdminRootState.
 	self assert: userCnt = User selectAll size.
 	
-	self cleanTest
-	 

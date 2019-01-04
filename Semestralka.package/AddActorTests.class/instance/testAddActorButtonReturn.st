@@ -9,5 +9,4 @@ testAddActorButtonReturn
 	self assert: Actor selectAll size = actorCnt.
 	self assert: window state class = AdminRootState.
 	
-	self cleanTest
 	 

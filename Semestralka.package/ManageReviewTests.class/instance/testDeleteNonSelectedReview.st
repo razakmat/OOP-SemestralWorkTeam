@@ -10,6 +10,5 @@ testDeleteNonSelectedReview
 	currentState buttonDelete performAction.
 	self assert: window state class = ManageReviewState.
 	self assert: reviewCnt = ManageReviewState currentFilm reviews size.
-	
-	self cleanTest
+
 	

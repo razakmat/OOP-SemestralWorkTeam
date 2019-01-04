@@ -8,4 +8,3 @@ testLoginNonexistingUser
 	testdb state logInAuth.
 
 	self assert: testdb state class = AuthentificationState.
-	self cleanTest

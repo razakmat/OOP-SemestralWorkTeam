@@ -11,5 +11,4 @@ testDeleteUser
 	self assert: window state class = ManageUsersState.
 	self assert: (userCnt - 1) = User selectAll size.
 	self assert: (User selectOne: [ :each | each nick = toDelete ]) isNil.
-	self cleanTest
 	

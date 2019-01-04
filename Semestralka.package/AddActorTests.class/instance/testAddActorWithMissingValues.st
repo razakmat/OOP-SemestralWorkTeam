@@ -12,6 +12,5 @@ testAddActorWithMissingValues
 	self assert: error.
 	self assert: Actor selectAll size = actorCnt.
 	self assert: window state class = AddActorState.
-	
-	self cleanTest
+
 	
