@@ -10,7 +10,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonYes",
-		"buttonNo"
+		"buttonNo",
+		"text"
 	],
 	"name" : "ConfirmState",
 	"type" : "normal"
