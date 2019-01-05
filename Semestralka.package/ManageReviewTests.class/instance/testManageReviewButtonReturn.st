@@ -9,7 +9,7 @@ testManageReviewButtonReturn
 	currentState := window state.
 	reviewCnt := currentFilm reviews size.
 	currentState buttonReturn performAction.
-	self assert: window state class = SingleState.
+	self assert: window state class equals: SingleState.
 	self assert: reviewCnt = currentFilm reviews size.
 	
 	 

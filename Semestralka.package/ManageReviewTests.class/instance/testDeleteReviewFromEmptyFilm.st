@@ -7,4 +7,4 @@ testDeleteReviewFromEmptyFilm
 	window := self initState: ManageReviewState.
 	currentState := window state.
 	currentState buttonDelete performAction.
-	self assert: window state class = ManageReviewState.
+	self assert: window state class  equals: ManageReviewState.

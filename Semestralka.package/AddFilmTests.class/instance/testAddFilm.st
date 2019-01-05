@@ -12,5 +12,5 @@ testAddFilm
 	currentState buttonAdd performAction.
 	self assert: RealFilm selectAll size = (filmCnt + 1).
 	self assert: (RealFilm selectOne: [ :each | each id = (filmCnt + 1) ]) = addedFilm.
-	self assert: window state class = AddFilmState.
+	self assert: window state class equals: AddFilmState.
 	self assert: (window state newFilm = addedFilm) not.

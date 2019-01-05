@@ -10,7 +10,7 @@ testDeleteReview
 	reviewCnt := currentFilm reviews size.
 	currentState screen setSelectedIndex: 1.
 	currentState buttonDelete performAction.
-	self assert: window state class = ManageReviewState.
+	self assert: window state class equals: ManageReviewState.
 	self assert: (reviewCnt - 1) = currentFilm reviews size.
 	
 	

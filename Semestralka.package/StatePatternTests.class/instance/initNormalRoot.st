@@ -5,5 +5,5 @@ initNormalRoot
 	window state loginPassed: 'normal'; 
 					passwordPassed: 'normal'.
 	window state buttonLogInAuth performAction.
-	self assert: window state class = NormalRootState.
+	self assert: window state class equals: NormalRootState.
 	^window

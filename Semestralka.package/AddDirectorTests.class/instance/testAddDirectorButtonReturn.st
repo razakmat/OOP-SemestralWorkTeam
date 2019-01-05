@@ -7,6 +7,6 @@ testAddDirectorButtonReturn
 	currentState := window state.
 	currentState buttonReturn performAction.
 	self assert: Director selectAll size = directorCnt.
-	self assert: window state class = AdminRootState.
+	self assert: window state class equals: AdminRootState.
 	
 	 

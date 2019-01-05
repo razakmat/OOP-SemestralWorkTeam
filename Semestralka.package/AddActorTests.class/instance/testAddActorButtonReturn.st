@@ -7,6 +7,6 @@ testAddActorButtonReturn
 	currentState := window state.
 	currentState buttonReturn performAction.
 	self assert: Actor selectAll size = actorCnt.
-	self assert: window state class = AdminRootState.
+	self assert: window state class equals: AdminRootState.
 	
 	 

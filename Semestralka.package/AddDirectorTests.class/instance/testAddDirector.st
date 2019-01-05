@@ -14,5 +14,5 @@ testAddDirector
 	self assert: Director selectAll size = (directorCnt + 1).
 	self
 		assert: (Director selectOne: [ :each | each id = (directorCnt + 1) ]) = addedDirector.
-	self assert: window state class = AddDirectorState.
+	self assert: window state class equals: AddDirectorState.
 	self assert: (window state newPerson = addedDirector) not.
