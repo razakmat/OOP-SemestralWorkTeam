@@ -1,0 +1,3 @@
+adding
+addNew
+	self subclassResponsibility

@@ -17,7 +17,7 @@ initializeWidgets
 						(RealFilm selectAll collect: [:each | each genre asString]) asSet 															asOrderedCollection );
 		enabled: true.
 	inputDirector := TextInputFieldModel new
-		ghostText: 'Director ID';
+		ghostText: 'Director ID - type and select from menu';
 		autoAccept: true;
 		entryCompletion: (self entryCompletion: (Director selectAll collect: [:each | each asString]));
 		enabled: true
