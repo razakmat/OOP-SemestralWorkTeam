@@ -1,3 +1,4 @@
 example data
 setUpTestConnection
-	self setUpConnectionTest
+	currentRepository := VOMemoryRepository new.
+	currentRepository enableSingleton
