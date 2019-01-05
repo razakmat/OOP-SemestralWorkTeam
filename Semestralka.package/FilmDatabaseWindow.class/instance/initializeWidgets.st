@@ -1,4 +1,3 @@
 initialization
 initializeWidgets
-	items := self instantiate: state class.
-	
+	state := self class state withContext: self.

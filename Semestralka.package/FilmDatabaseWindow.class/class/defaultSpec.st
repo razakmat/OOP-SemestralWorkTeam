@@ -2,5 +2,5 @@ specs
 defaultSpec
 	<spec: #default>
 	^ SpecLayout composed
-		add: #items;
+		add: #state;
 		yourself
