@@ -1,5 +1,5 @@
 tests
-initRemoveFilmTests
+initAdminRoot
 	|window|
 	window := FilmDatabaseWindow new.
 	window state loginPassed: 'admin'; 

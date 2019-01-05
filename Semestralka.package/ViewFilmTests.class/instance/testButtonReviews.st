@@ -1,13 +1,8 @@
 tests
 testButtonReviews
-	| currentState window |
+	|window |
 	self setUpConnection.
-	window := FilmDatabaseWindow new: AuthenticationState.
-	currentState := window state.
-	currentState
-		loginPassed: 'normal';
-		passwordPassed: 'normal'.
-	window state buttonLogInAuth performAction.
+	window := self initNormalRoot.
 	window state screen setSelectedIndex: 1.
 	window state buttonViewFilm performAction.
 	window state buttonReview performAction.

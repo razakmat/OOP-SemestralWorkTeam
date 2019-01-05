@@ -2,7 +2,7 @@ tests
 testRemoveNonSelectedFilm
 	|window filmCnt|
 	self setUpConnection.
-	window := self initRemoveFilmTests.
+	window := self initAdminRoot.
 	filmCnt := (RealFilm selectAll size).
 	window state buttonRemove performAction.
 	self assert: filmCnt = (RealFilm selectAll size).

@@ -2,7 +2,7 @@ tests
 testRemoveFilm
 	|window filmCnt filmToRemove|
 	self setUpConnection.
-	window := self initRemoveFilmTests.
+	window := self initAdminRoot.
 	filmCnt := (RealFilm selectAll size).
 	window state screen setSelectedIndex: 1.
 	filmToRemove := window state selectedFilmOnScreen.
