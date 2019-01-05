@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PavelErazim 1/2/2019 20:04",
+	"super" : "AuthenticationState",
+	"category" : "Semestralka",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonLogInAuth"
+	],
+	"name" : "RegisterState",
+	"type" : "normal"
+}

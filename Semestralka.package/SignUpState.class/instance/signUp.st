@@ -2,9 +2,9 @@ as yet unclassified
 signUp
 	| user newUser |
 	password isNil | login isNil
-		ifTrue: [ self class missingCredentials: true.
+		ifTrue: [ self class wrongCredentials: true.
 			myWindow dynamicChange: self class.
-			self class missingCredentials: false ]
+			self class wrongCredentials: false ]
 		ifFalse: [ user := User selectOne: [ :each | each nick = login ].
 			user
 				ifNotNil: [ self class userAlreadyExists: true.

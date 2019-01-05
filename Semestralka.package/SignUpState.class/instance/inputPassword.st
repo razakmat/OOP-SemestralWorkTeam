@@ -1,3 +1,0 @@
-accessing
-inputPassword
-	^inputPassword 

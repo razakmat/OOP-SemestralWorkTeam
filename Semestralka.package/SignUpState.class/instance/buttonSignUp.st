@@ -1,3 +1,0 @@
-accessing
-buttonSignUp
-	^ buttonSignUp

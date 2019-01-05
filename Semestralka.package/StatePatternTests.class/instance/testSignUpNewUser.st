@@ -8,7 +8,7 @@ testSignUpNewUser
 		passwordPassed: 'mrkev'.
 	testdb state buttonLogInAuth performAction.
 
-	self assert: testdb state class = AuthenticationState.
+	self assert: testdb state class = RegisterState.
 	testdb state buttonSignUp performAction.
 	self assert: testdb state class = SignUpState.
 

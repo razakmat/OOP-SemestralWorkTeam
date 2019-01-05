@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "PavelErazim 1/2/2019 20:04",
+	"commentStamp" : "",
 	"super" : "StateClass",
 	"category" : "Semestralka",
 	"classinstvars" : [
@@ -8,12 +8,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonLogInAuth",
+		"statusField",
 		"buttonSignUp",
-		"credentialsField",
-		"inputPassword",
-		"inputLogin",
 		"login",
+		"inputLogin",
+		"inputPassword",
 		"password"
 	],
 	"name" : "AuthenticationState",

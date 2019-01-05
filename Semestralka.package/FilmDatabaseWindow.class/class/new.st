@@ -1,4 +1,4 @@
 instance creation
 new
-	state := AuthenticationState.
+	state := RegisterState.
 	^ self basicNew initialize

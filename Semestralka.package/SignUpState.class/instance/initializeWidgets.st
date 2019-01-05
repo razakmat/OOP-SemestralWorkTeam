@@ -16,8 +16,8 @@ initializeWidgets
 	buttonSignUp := self newButton label: 'Register new user'.
 	buttonReturn := self newButton label: 'Return to login'.
 
-	self class missingCredentials
-		ifNotNil: [ self class missingCredentials
+	self class wrongCredentials
+		ifNotNil: [ self class wrongCredentials 
 				ifTrue: [ statusField text: 'You must fill both fields!' ] ].
 
 	self class userAlreadyExists

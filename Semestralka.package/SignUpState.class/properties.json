@@ -1,21 +1,14 @@
 {
 	"commentStamp" : "OleksandrZaporozhchenko 1/4/2019 12:52",
-	"super" : "StateClass",
+	"super" : "AuthenticationState",
 	"category" : "Semestralka",
 	"classinstvars" : [
-		"userAlreadyExists",
-		"missingCredentials"
+		"userAlreadyExists"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonReturn",
-		"buttonSignUp",
-		"statusField",
-		"inputPassword",
-		"inputLogin",
-		"login",
-		"password"
+		"buttonReturn"
 	],
 	"name" : "SignUpState",
 	"type" : "normal"
