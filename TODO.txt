@@ -2,16 +2,10 @@
 
 Testy.
 
-Spustitelna DB - neco jako v snakes and ladders, kde se v testech
-dala spustit kliknutim hra, tak to samy pro spusteni databaze,
-inicializace i navrat k databazi.
-
 Duplicitni kod v testech (inicializace atd.) vyresit pres funkce.
 
 authenticationState a SignUp state >>initializePresenter - duplicity v kodu
  => abstrakce??
-
-abstrahovat RootState????
 
 Testy, co delaji to samy, najit a vyhodit.
 
@@ -75,4 +69,10 @@ pro oba - nejak rozdelit na 2 podtridy u spolecnych stavu, nejspis to bude Whole
 (X)  viewSelectedFilm - hazi error, kdyz zadny film neni vybrany
 
 (X) AdminStatesTest a StatePatternTest pouzivaji stejne metody => abstrahovat
+
+(X) Spustitelna DB - neco jako v snakes and ladders, kde se v testech
+dala spustit kliknutim hra, tak to samy pro spusteni databaze,
+inicializace i navrat k databazi.
+
+(X) abstrahovat RootState????
 
