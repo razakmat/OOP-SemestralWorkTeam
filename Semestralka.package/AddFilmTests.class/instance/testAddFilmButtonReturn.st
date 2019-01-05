@@ -1,6 +1,6 @@
 tests
 testAddFilmButtonReturn
-	|currentState window filmCnt|
+	|currentState window filmCnt |
 	self setUpConnection.
 	filmCnt := RealFilm selectAll size.
 	window := self initState: AddFilmState.
