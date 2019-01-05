@@ -4,12 +4,13 @@
 	"category" : "Semestralka",
 	"classinstvars" : [
 		"returnTo",
-		"message"
+		"errorReceived"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"message",
+		"errorReceived",
 		"returnTo",
 		"errorMessage",
 		"buttonReturn"

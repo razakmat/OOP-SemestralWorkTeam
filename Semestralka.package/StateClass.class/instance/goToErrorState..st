@@ -1,3 +1,3 @@
 accessing
-goToErrorState: aMessage
-	myWindow dynamicChange: (ErrorState withMessage: aMessage returnTo: self class)
+goToErrorState: anError
+	myWindow dynamicChange: (ErrorState withError: anError returnTo: self class)

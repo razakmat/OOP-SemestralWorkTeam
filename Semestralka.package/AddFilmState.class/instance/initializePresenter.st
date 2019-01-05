@@ -12,7 +12,7 @@ initializePresenter
 		action: [ myWindow dynamicChange: myWindow user defaultAuthenticatedState ].
 	buttonAdd
 		action: [ [self addFilm.
-			myWindow dynamicChange: self class] on: AddObjectWithMissingValuesError do: [ :e | self goToErrorState: e message ] ].
+			myWindow dynamicChange: self class] on: AddObjectWithMissingValuesError do: [ :e | self goToErrorState: e ] ].
 	buttonAddActor
 		action: [ 
 			screen selectedItem isNil ifFalse: [  screen selectedIndex > 1 ifTrue: [ 

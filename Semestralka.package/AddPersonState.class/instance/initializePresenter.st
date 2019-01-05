@@ -8,4 +8,4 @@ initializePresenter
 		action: [ [ self addPerson.
 			myWindow dynamicChange: self class ]
 				on: AddObjectWithMissingValuesError
-				do: [ :e | self goToErrorState: e message ] ]
+				do: [ :e | self goToErrorState: e ] ]

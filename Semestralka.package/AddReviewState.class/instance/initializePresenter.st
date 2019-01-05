@@ -8,5 +8,5 @@ initializePresenter
 			myWindow dynamicChange: self class ]
 				on: AddReviewError
 				do:
-					[ :e | self goToErrorState: e message ] ].
+					[ :e | self goToErrorState: e ] ].
 	buttonReturn action: [ myWindow dynamicChange: SingleState ]
