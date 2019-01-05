@@ -1,14 +1,15 @@
 tests
 testManageReviewButtonReturn
-	|currentState window reviewCnt|
+	|currentState window reviewCnt currentFilm|
 	self setUpConnection.
-	SingleState currentFilm: (RealFilm selectOne: [:each | each id = 1]).
-	ManageReviewState currentFilm: SingleState currentFilm.
+	currentFilm := (RealFilm selectOne: [:each | each id = 1]).
+	SingleState currentFilm: currentFilm.
+	ManageReviewState currentFilm: currentFilm.
 	window := self initState: ManageReviewState.
 	currentState := window state.
-	reviewCnt := ManageReviewState currentFilm reviews size.
+	reviewCnt := currentFilm reviews size.
 	currentState buttonReturn performAction.
 	self assert: window state class = SingleState.
-	self assert: reviewCnt = ManageReviewState currentFilm reviews size.
+	self assert: reviewCnt = currentFilm reviews size.
 	
 	 
