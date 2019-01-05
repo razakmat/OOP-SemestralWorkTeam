@@ -1,3 +1,3 @@
 accessing
 actionBlock
-	^actionBlock 
+	^ actionBlock ifNil: [ ^ self idBlock ]

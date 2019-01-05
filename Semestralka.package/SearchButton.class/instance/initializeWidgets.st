@@ -1,6 +1,6 @@
 initialization
 initializeWidgets
-	| searchButtonGroup |
+	|searchButtonGroup|
 	searchButtonGroup := RadioButtonGroup new.
 	
 	byID := self newRadioButton.
