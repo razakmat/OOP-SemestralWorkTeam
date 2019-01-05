@@ -2,13 +2,7 @@ tests
 testViewNotSelectedFilm
 	| currentState window |
 	self setUpConnection.
-	window := FilmDatabaseWindow new: AuthenticationState.
-	currentState := window state.
-	currentState
-		loginPassed: 'normal';
-		passwordPassed: 'normal'.
-	currentState buttonLogInAuth performAction.
-	self assert: window state class equals: NormalRootState.
+	window := self initNormalRoot.
 	currentState := window state.
 	currentState buttonViewFilm performAction.
 	self assert: window state class equals: SingleState.

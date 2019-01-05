@@ -2,12 +2,7 @@ tests
 testEmptyFilmAddReviewError
 	| testdb |
 	self setUpConnection.
-	testdb := FilmDatabaseWindow new.
-	testdb state
-		loginPassed: 'normal';
-		passwordPassed: 'normal'.
-	testdb state logInAuth.
-
+	testdb := self initNormalRoot.
 	testdb state buttonViewFilm performAction.
 	testdb state buttonReview performAction.
 
