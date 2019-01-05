@@ -4,9 +4,7 @@ User can have two different roles:
 - normal (default) - regular database user, can view and comment movies
 - admin - admin can add and edit entries and users
 
-Users nick can be accesed and changed, as well as password.
-
-Roles cannot be changed. Role is returned as string when sending message role to AdminUser or NormalUser instances.
+User's role can be changed by an AdminUser using ManageUsers feature.
 
 How to add a new user:
 | admin normal |

@@ -1,1 +1,1 @@
-I'm a state class for deleting existing review. I'm available only for AdminUser instances. An admin user can delete selected review using my butttonDelete.
+I'm a state class for deleting existing review. I'm available only for AdminUsers.  An admin user can delete selected review using my butttonDelete.

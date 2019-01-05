@@ -1,1 +1,1 @@
-I'm a state class representing film collection of the same genre.  
+I'm a state class representing film collection of the same genre., when someone uses "Search by genre" feature, availabale in RootState.
