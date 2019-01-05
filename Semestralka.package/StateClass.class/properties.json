@@ -6,7 +6,9 @@
 		"MySecWindow"
 	],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"confirmed"
+	],
 	"instvars" : [
 		"myWindow"
 	],
