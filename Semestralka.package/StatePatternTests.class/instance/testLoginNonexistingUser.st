@@ -7,4 +7,4 @@ testLoginNonexistingUser
 	testdb state passwordPassed: 'nemaZadneHeslo123!'.
 	testdb state logInAuth.
 
-	self assert: testdb state class = RegisterState.
+	self assert: testdb state class = LogInState.

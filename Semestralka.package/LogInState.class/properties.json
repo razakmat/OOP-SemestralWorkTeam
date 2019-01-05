@@ -8,6 +8,6 @@
 	"instvars" : [
 		"buttonLogInAuth"
 	],
-	"name" : "RegisterState",
+	"name" : "LogInState",
 	"type" : "normal"
 }
