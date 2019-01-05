@@ -6,7 +6,8 @@ initializePresenter
 			  (screen selectedItem isNotNil) ifTrue: [
 				(User selectOne: [ :each | each nick = self selectedNickOnScreen  ]) remove.
 				].
-			  screen items: self userData 
+			  screen items: self userData.
+			  screen setSelectedIndex: 0.
 			].
 	buttonChangeRole 
 		action:
@@ -17,7 +18,8 @@ initializePresenter
 				oldRole remove.
 				newRole save
 				].
-			  screen items: self userData 
+			  screen items: self userData.
+			  screen setSelectedIndex: 0.
 			].
 		buttonReturn
 		action:
