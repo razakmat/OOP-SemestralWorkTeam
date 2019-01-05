@@ -10,6 +10,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"message",
+		"errorReceived",
 		"returnTo",
 		"errorMessage",
 		"buttonReturn"

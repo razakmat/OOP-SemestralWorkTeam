@@ -1,5 +1,6 @@
 initialization
 initializeWidgets
 	myWindow := self class mySecWindow.
-	errorMessage := TextModel new text: self errorReceived message; disable.
+	errorReceived := self class errorReceived.
+	errorMessage := TextModel new text: errorReceived message; disable.
 	buttonReturn := self newButton label: 'Return'.
