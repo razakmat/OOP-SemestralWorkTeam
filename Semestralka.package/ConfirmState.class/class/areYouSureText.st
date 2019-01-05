@@ -1,3 +1,0 @@
-accessing
-areYouSureText
-	^'u sure'

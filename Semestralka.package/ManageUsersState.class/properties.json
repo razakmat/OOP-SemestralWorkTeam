@@ -11,8 +11,7 @@
 		"buttonReturn",
 		"buttonDelete",
 		"screen",
-		"buttonChangeRole",
-		"confirmed"
+		"buttonChangeRole"
 	],
 	"name" : "ManageUsersState",
 	"type" : "normal"

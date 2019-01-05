@@ -1,3 +1,0 @@
-accessing
-confirm
-	confirmed := true

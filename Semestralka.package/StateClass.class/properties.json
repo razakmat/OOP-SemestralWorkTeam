@@ -1,14 +1,12 @@
 {
-	"commentStamp" : "PavelErazim 1/5/2019 21:49",
+	"commentStamp" : "PavelErazim 1/6/2019 00:43",
 	"super" : "ComposableModel",
 	"category" : "Semestralka",
 	"classinstvars" : [
 		"MySecWindow"
 	],
 	"pools" : [ ],
-	"classvars" : [
-		"confirmed"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"myWindow"
 	],
