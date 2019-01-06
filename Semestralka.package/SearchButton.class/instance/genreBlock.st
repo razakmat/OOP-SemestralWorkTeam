@@ -1,5 +1,4 @@
 accessing
 genreBlock
-	^ [ :aString :aWindow | 
-	CollectionState genre: aString asSymbol.
-	aWindow dynamicChange: CollectionState ]
+  ^ [ :aString :aWindow| CollectionState genre: aString asSymbol.
+	aWindow dynamicChange: CollectionState]
