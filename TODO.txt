@@ -1,10 +1,5 @@
 ================ TODO =====================================================
 
-Duplicitni kod v testech (inicializace atd.) vyresit pres funkce.
-
-authenticationState a SignUp state >>initializePresenter - duplicity v kodu
- => abstrakce??
-
 ================ BUGS =====================================================
 
 ======== FEATURES (nepovinne, pokud zbyde cas) ============================
@@ -12,9 +7,5 @@ authenticationState a SignUp state >>initializePresenter - duplicity v kodu
 Director state >> initializeWidgets
   - zmenit Return to movie na Return to + 'nazev filmu'
 
-Zobrazovani zanru vedle filmu
-
 View DB as a guest - pouze prohlizeni filmu, nikoliv vyhledavani
   -> novy stav GuestRootState
-  
-prepsat 'admin' a 'normal' role na symboly (???)
