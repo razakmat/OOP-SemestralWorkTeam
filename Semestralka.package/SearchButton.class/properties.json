@@ -2,13 +2,16 @@
 	"commentStamp" : "MiroslavKalal 1/3/2019 16:21",
 	"super" : "ComposableModel",
 	"category" : "Semestralka",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"inputField"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"byID",
 		"byGenre",
-		"actionBlock"
+		"actionBlock",
+		"inputField"
 	],
 	"name" : "SearchButton",
 	"type" : "normal"
