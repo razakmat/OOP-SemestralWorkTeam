@@ -1,5 +1,5 @@
 adding
 addPersonalData
 	|data|
-	data := self addDirectorData.
+	data := self getDirectorData.
 	^data

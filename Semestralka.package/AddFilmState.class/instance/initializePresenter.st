@@ -19,5 +19,5 @@ initializePresenter
 			newFilm addActor: (Actor selectOne: [:each | each id = self selectedIdOnScreen asNumber]).
 					]
 				].
-			screen items: (self addActorData:(Actor selectAll difference: newFilm actors))
+			screen items: (self getActorData:(Actor selectAll difference: newFilm actors))
 			]

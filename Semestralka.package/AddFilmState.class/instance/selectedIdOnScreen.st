@@ -1,4 +1,4 @@
-accessing
+parsing
 selectedIdOnScreen
 	| substr |
 	substr := ', Name\: .*' asRegex copy: screen selectedItem replacingMatchesWith: ''.

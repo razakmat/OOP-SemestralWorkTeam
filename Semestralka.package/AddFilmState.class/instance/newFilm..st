@@ -1,3 +1,3 @@
-adding
+accessing
 newFilm: aFilm
 	newFilm := aFilm

@@ -1,4 +1,4 @@
-as yet unclassified
+api
 signUp
 	| user newUser |
 	password isNil | login isNil

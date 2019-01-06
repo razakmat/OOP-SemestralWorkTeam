@@ -1,4 +1,4 @@
-as yet unclassified
+api
 logInAuth
 	| user |
 	user := User selectOne: [ :each | each nick = login & (each password = password) ].

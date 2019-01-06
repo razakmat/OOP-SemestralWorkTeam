@@ -1,5 +1,5 @@
 accessing
-addActorData: aCollection
+getActorData: aCollection
 	| data |
 	data := OrderedCollection new.
 	data add: 'list of actors:'.

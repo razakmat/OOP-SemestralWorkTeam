@@ -1,4 +1,4 @@
-accessing
+initialization
 initializeWidgets
 	myWindow := self class mySecWindow.
 	screen := ListModel new.

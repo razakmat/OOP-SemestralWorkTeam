@@ -1,4 +1,4 @@
-accessing
+api
 entryCompletion: dataSource
 	  ^ EntryCompletion new
                 dataSourceBlock: [ :currText | dataSource ];

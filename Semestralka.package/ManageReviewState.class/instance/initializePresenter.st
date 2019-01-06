@@ -1,4 +1,4 @@
-accessing
+initialization
 initializePresenter
 	buttonDelete
 		action:

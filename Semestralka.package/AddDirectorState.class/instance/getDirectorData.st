@@ -1,5 +1,5 @@
 accessing
-addDirectorData
+getDirectorData
 	| data |
 	data := OrderedCollection new.
 	data add: 'list of Directors:'.
