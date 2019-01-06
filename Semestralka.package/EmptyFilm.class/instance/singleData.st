@@ -1,4 +1,5 @@
 accessing
 singleData
-	^ OrderedCollection new add: 'No film has been found.'; 
-		yourself.	
+	^ OrderedCollection new
+		add: 'No film has been found.';
+		yourself

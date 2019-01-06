@@ -1,10 +1,10 @@
 User class.
 Defines a user.
-User can have two different roles:
-- normal (default) - regular database user, can view and comment movies
-- admin - admin can add and edit entries and users
+A user can have two different roles:
+- normal (default) - a regular database user, can view and comment movies
+- admin - an admin can add and edit entries and users
 
-User's role can be changed by an AdminUser using ManageUsers feature.
+The user's role can be changed by an AdminUser using ManageUsers feature.
 
 How to add a new user:
 | admin normal |

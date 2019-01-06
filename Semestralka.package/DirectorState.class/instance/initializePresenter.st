@@ -1,3 +1,3 @@
 initialization
 initializePresenter
-	buttonReturn action: [ myWindow dynamicChange: ViewMovieState ].
+	buttonReturn action: [ myWindow dynamicChange: ViewFilmState ].

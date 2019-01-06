@@ -1,1 +1,1 @@
-Exception that is thrown when user wants to show info about director  and has no movie selected.
+Exception that is thrown when user wants to show info about director  and has no film selected.

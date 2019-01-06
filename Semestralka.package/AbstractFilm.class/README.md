@@ -1,6 +1,6 @@
 I'm an abstract class for films.
 
-I have following sublcasses:
+I have following subclasses:
 EmptyFilm
 RealFilm
 

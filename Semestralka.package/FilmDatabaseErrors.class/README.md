@@ -1,4 +1,4 @@
-I am an abstract class for movie errors.
+I am an abstract class for film errors.
 When some serious error occurs, a corresponding instance of me is thrown.
 
 I have a following API:
