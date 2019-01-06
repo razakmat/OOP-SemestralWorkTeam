@@ -1,5 +1,5 @@
 tests
-testRemoveFilm
+testRemoveFilmAndConfirmState
 	| window filmCnt filmToRemove |
 	self setUpConnection.
 	window := self initAdminRoot.
