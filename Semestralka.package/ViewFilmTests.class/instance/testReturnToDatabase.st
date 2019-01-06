@@ -1,6 +1,6 @@
 tests
 testReturnToDatabase
-		| currentState window |
+	| currentState window |
 	self setUpConnection.
 	window := self initNormalRoot.
 	window state screen setSelectedIndex: 1.

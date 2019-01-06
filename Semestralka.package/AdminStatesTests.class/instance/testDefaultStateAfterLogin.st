@@ -4,4 +4,5 @@ testDefaultStateAfterLogin
 	self setUpConnection.
 	window := self initAdminRoot.
 	self assert: window user nick = 'admin'.
-	self assert: window user password = 'admin'
+	self assert: window user password = 'admin'.
+	self assert: window state class = AdminRootState

@@ -2,11 +2,7 @@ tests
 testAddFilmWithMissingValueErrorState
 	| testdb currentState |
 	self setUpConnection.
-	testdb := FilmDatabaseWindow new.
-	testdb state
-		loginPassed: 'admin';
-		passwordPassed: 'admin'.
-	testdb state logInAuth.
+	testdb := self initAdminRoot.
 
 	testdb state buttonAddFilm performAction.
 	testdb state buttonAdd performAction.

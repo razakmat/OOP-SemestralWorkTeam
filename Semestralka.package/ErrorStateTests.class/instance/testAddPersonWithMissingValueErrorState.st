@@ -2,11 +2,7 @@ tests
 testAddPersonWithMissingValueErrorState
 	| testdb addIncompleteActorState addIncompleteDirectorState |
 	self setUpConnection.
-	testdb := FilmDatabaseWindow new.
-	testdb state
-		loginPassed: 'admin';
-		passwordPassed: 'admin'.
-	testdb state logInAuth.
+	testdb := self initAdminRoot.
 
 	testdb state buttonAddActor performAction.
 	testdb state buttonAdd performAction.
