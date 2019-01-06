@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 withNick: aNick withPassword: aPassword
 	|user|
 	user := self new.
