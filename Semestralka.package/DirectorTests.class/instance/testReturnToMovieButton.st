@@ -9,5 +9,5 @@ testReturnToMovieButton
 	self assert: window state class equals: DirectorState.
 	currentState := window state.
 	currentState buttonReturn performAction.
-	self assert: window state class equals: SingleState.
+	self assert: window state class equals: ViewMovieState.
 	self assert: window state class currentFilm equals: (RealFilm selectOne: [ :aFilm | aFilm id = 1 ])

@@ -3,7 +3,7 @@ testDeleteReview
 	|currentState window reviewCnt currentFilm|
 	self setUpConnection.
 	currentFilm := (RealFilm selectOne: [:each | each id = 1]).
-	SingleState currentFilm: currentFilm.
+	ViewMovieState currentFilm: currentFilm.
 	ManageReviewState currentFilm: currentFilm.
 	window := self initState: ManageReviewState.
 	currentState := window state.

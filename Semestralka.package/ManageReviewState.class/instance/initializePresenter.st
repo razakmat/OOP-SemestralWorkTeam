@@ -12,4 +12,4 @@ initializePresenter
 			].
 	buttonReturn
 		action:
-			[ myWindow dynamicChange: SingleState ]
+			[ myWindow dynamicChange: ViewMovieState ]

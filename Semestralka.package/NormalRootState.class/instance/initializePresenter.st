@@ -4,7 +4,7 @@ initializePresenter
 	self initializeRootPresenter.
 	buttonViewFilm
 		action: [ screen selectedItem isNil
-				ifTrue: [ SingleState currentFilm: AbstractFilm empty ]
+				ifTrue: [ ViewMovieState currentFilm: AbstractFilm empty ]
 				ifFalse: [ id := self selectedIdOnScreen asNumber.
-					SingleState currentFilm: (RealFilm selectOne: [ :aFilm | aFilm id = id ]) ].
-			myWindow dynamicChange: SingleState ]
+					ViewMovieState currentFilm: (RealFilm selectOne: [ :aFilm | aFilm id = id ]) ].
+			myWindow dynamicChange: ViewMovieState ]

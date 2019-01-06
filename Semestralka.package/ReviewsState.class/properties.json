@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "PavelErazim 1/5/2019 21:53",
+	"commentStamp" : "PavelErazim 1/6/2019 12:57",
 	"super" : "StateClass",
 	"category" : "Semestralka",
 	"classinstvars" : [
@@ -13,6 +13,6 @@
 		"screen",
 		"currentFilm"
 	],
-	"name" : "AddReviewState",
+	"name" : "ReviewsState",
 	"type" : "normal"
 }
