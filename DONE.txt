@@ -49,3 +49,13 @@ inicializace i navrat k databazi.
 (X) Add director state tests - nekdy zluty
 
 (X) manage review test - cerveny obcas - test manage review button return
+
+Duplicitni kod v testech (inicializace atd.) vyresit pres funkce.
+
+authenticationState a SignUp state >>initializePresenter - duplicity v kodu
+ => abstrakce??
+ 
+ Zobrazovani zanru vedle filmu
+
+prepsat 'admin' a 'normal' role na symboly (???)
+
