@@ -14,6 +14,6 @@
 		"screen",
 		"buttonReview"
 	],
-	"name" : "ViewMovieState",
+	"name" : "ViewFilmState",
 	"type" : "normal"
 }

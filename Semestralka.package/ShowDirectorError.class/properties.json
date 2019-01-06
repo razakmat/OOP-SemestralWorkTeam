@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "PavelErazim 1/4/2019 13:42",
-	"super" : "MovieDatabaseErrors",
+	"commentStamp" : "MiroslavKalal 1/6/2019 14:46",
+	"super" : "FilmDatabaseErrors",
 	"category" : "Semestralka",
 	"classinstvars" : [ ],
 	"pools" : [ ],

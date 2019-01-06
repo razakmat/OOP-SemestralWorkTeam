@@ -2,8 +2,8 @@ initialization
 initializePresenter
 	input
 		acceptBlock: [ :anInput | 
-			ViewMovieState currentFilm
+			ViewFilmState currentFilm
 				addReview: myWindow user nick asString , ' wrote: <' , anInput asString , '>';
 				save.
 			myWindow dynamicChange: self class ].
-	buttonReturn action: [ myWindow dynamicChange: ViewMovieState ]
+	buttonReturn action: [ myWindow dynamicChange: ViewFilmState ]

@@ -2,8 +2,8 @@ tests
 testDeleteReviewFromEmptyFilm
 	|currentState window|
 	self setUpConnection.
-	ViewMovieState currentFilm: (AbstractFilm empty).
-	ManageReviewState currentFilm: ViewMovieState currentFilm.
+	ViewFilmState currentFilm: (AbstractFilm empty).
+	ManageReviewState currentFilm: ViewFilmState currentFilm.
 	window := self initState: ManageReviewState.
 	currentState := window state.
 	currentState buttonDelete performAction.

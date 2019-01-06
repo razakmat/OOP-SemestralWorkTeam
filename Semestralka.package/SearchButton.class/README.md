@@ -1,1 +1,1 @@
-I'm a button which starts a search of films in a database based on an id or a film genre specified in an input.
+I'm a button which starts a search of films in a database based on an id or a film genre specified through a text input.
